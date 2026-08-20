@@ -1,7 +1,15 @@
 {
   "name": "@myndui/components",
-  "version": "0.0.0",
-  "private": true,
+  "version": "1.0.0",
+  "private": false,
+  "description": "Myndui — a UI component library for modern interfaces, owned by Yethikrishna R and built under Mynd Labs.",
+  "author": "Yethikrishna R <yethikrishnarcvn7a@gmail.com>",
+  "homepage": "https://myndui.design",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yethikrishna/myndui.git"
+  },
+  "license": "MIT",
   "type": "module",
   "sideEffects": false,
   "exports": {
