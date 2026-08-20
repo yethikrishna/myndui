@@ -37,7 +37,7 @@ export function CopyButton({ value, className }: CopyButtonProps) {
         className={cn(
           "inline-flex",
           copied &&
-            "animate-[godui-tool-pop_380ms_cubic-bezier(0.16,1,0.3,1)] motion-reduce:animate-none",
+            "animate-[myndui-tool-pop_380ms_cubic-bezier(0.16,1,0.3,1)] motion-reduce:animate-none",
         )}
       >
         {copied ? (

@@ -1,4 +1,4 @@
-import { StackBadge, type StackBadgeProps } from "@godui/components";
+import { StackBadge, type StackBadgeProps } from "@myndui/components";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 
 const meta = {

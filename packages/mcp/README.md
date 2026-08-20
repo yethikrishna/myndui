@@ -1,7 +1,7 @@
-# @godui/mcp
+# @myndui/mcp
 
-Model Context Protocol server for [GodUI](https://godui.design). Add it to your
-AI IDE and ask for any GodUI component by description — the agent discovers it,
+Model Context Protocol server for [Myndui](https://myndui.design). Add it to your
+AI IDE and ask for any Myndui component by description — the agent discovers it,
 gets the install command, and writes the source for you.
 
 ## Install
@@ -13,9 +13,9 @@ Add this to your MCP config file:
 ```json
 {
   "mcpServers": {
-    "godui": {
+    "myndui": {
       "command": "npx",
-      "args": ["-y", "@godui/mcp@latest"]
+      "args": ["-y", "@myndui/mcp@latest"]
     }
   }
 }
@@ -30,9 +30,9 @@ Then **restart your IDE**.
 
 ## Usage
 
-Ask your IDE to use any GodUI component:
+Ask your IDE to use any Myndui component:
 
-- "Add a GodUI magic button"
+- "Add a Myndui magic button"
 - "Add a marquee of logos"
 - "Add an animated gradient background"
 - "Add a number ticker that counts to 1000"
@@ -45,12 +45,12 @@ Ask your IDE to use any GodUI component:
 
 ## How it works
 
-The server fetches the live GodUI registry at `https://godui.design/r`, so it
+The server fetches the live Myndui registry at `https://myndui.design/r`, so it
 always serves the latest components without an update. Override the base for
 local testing:
 
 ```bash
-GODUI_REGISTRY_URL=http://localhost:3000/r npx @godui/mcp@latest
+MYNDUI_REGISTRY_URL=http://localhost:3000/r npx @myndui/mcp@latest
 ```
 
 ## License

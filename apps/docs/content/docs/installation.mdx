@@ -1,9 +1,9 @@
 ---
 title: Installation
-description: Install GodUI components with the shadcn CLI.
+description: Install Myndui components with the shadcn CLI.
 ---
 
-GodUI is a design system built with Tailwind CSS v4 and React, distributed as a
+Myndui is a design system built with Tailwind CSS v4 and React, distributed as a
 [shadcn](https://ui.shadcn.com) registry. Components are copied straight into
 your project — you own the source.
 
@@ -21,18 +21,18 @@ pnpm dlx shadcn@latest init
 
 ## 2. Add components
 
-Add any GodUI component with its registry URL — no configuration required:
+Add any Myndui component with its registry URL — no configuration required:
 
 ```bash
-pnpm dlx shadcn@latest add https://godui.design/r/magic-button.json
+pnpm dlx shadcn@latest add https://myndui.design/r/magic-button.json
 ```
 
-This copies the component into `components/godui/` and merges the GodUI theme
+This copies the component into `components/myndui/` and merges the Myndui theme
 tokens and component styles into your global stylesheet automatically.
 
 ## Typography (bring your own font)
 
-GodUI is font-agnostic. The theme ships a neutral system font stack as the
+Myndui is font-agnostic. The theme ships a neutral system font stack as the
 default, so components look right with zero setup. To use any font, override
 `--font-sans` (and optionally `--font-mono` / `--font-serif`) in your global
 stylesheet — everything inherits it.
@@ -43,7 +43,7 @@ stylesheet — everything inherits it.
 }
 ```
 
-### Optional: Geist (the GodUI brand font)
+### Optional: Geist (the Myndui brand font)
 
 The docs site uses [Geist](https://vercel.com/font). To match it in a Next.js
 app, install `geist` and point `--font-sans` / `--font-mono` at its variables:

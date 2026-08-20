@@ -1,5 +1,5 @@
 <!--
-  Thanks for contributing to GodUI! 🙌
+  Thanks for contributing to Myndui! 🙌
   Fill in the sections below. Delete any that don't apply.
   Keep the PR focused — smaller PRs get reviewed faster.
 -->

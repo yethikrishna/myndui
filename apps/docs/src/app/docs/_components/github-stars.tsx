@@ -4,7 +4,7 @@ import { type ComponentProps, useEffect, useState } from "react";
 import { useGitHubStars } from "@/components/github-stars-provider";
 import { cn } from "@/lib/cn";
 
-const REPO = "LucasBassetti/godui";
+const REPO = "YethikrishnaR/myndui";
 
 function GitHubIcon(props: ComponentProps<"svg">) {
   return (
@@ -65,7 +65,7 @@ export function GitHubStars({ className, ...props }: ComponentProps<"a">) {
       href={`https://github.com/${REPO}`}
       target="_blank"
       rel="noreferrer noopener"
-      aria-label="Star GodUI on GitHub"
+      aria-label="Star Myndui on GitHub"
       className={cn(
         "inline-flex h-9 items-center gap-2 rounded-full px-2.5 font-medium text-fd-muted-foreground text-sm transition-colors hover:bg-fd-accent hover:text-fd-accent-foreground",
         className,

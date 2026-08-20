@@ -1,4 +1,4 @@
-import { SpinViewer, type SpinViewerProps } from "@godui/components";
+import { SpinViewer, type SpinViewerProps } from "@myndui/components";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { makeCubeFrames } from "./spin-viewer-frames";
 

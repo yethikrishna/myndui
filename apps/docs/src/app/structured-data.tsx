@@ -1,4 +1,4 @@
-const SITE_URL = "https://godui.design";
+const SITE_URL = "https://myndui.design";
 
 /**
  * Site-wide JSON-LD (schema.org) injected into every page's <head>.
@@ -14,7 +14,7 @@ export function SiteStructuredData() {
       {
         "@type": "WebSite",
         "@id": `${SITE_URL}/#website`,
-        name: "GodUI",
+        name: "Myndui",
         url: SITE_URL,
         description:
           "An open-source collection of beautifully crafted motion components built with React, TypeScript, Tailwind CSS, Motion, and shadcn/ui.",
@@ -23,18 +23,18 @@ export function SiteStructuredData() {
       {
         "@type": "Organization",
         "@id": `${SITE_URL}/#organization`,
-        name: "GodUI",
+        name: "Myndui",
         url: SITE_URL,
         logo: {
           "@type": "ImageObject",
           url: `${SITE_URL}/icon.svg`,
         },
-        sameAs: ["https://github.com/LucasBassetti/godui"],
+        sameAs: ["https://github.com/YethikrishnaR/myndui"],
       },
       {
         "@type": "SoftwareApplication",
         "@id": `${SITE_URL}/#software`,
-        name: "GodUI",
+        name: "Myndui",
         applicationCategory: "DeveloperApplication",
         operatingSystem: "Web",
         url: SITE_URL,

@@ -1,6 +1,6 @@
 "use client";
 
-import { ParticleDissolve } from "@godui/components";
+import { ParticleDissolve } from "@myndui/components";
 import { useBareScene } from "@/components/learn/bare-scene-context";
 
 /**
@@ -10,7 +10,7 @@ import { useBareScene } from "@/components/learn/bare-scene-context";
 export function ParticleDissolveResultBody() {
   return (
     <ParticleDissolve
-      text="GodUI"
+      text="Myndui"
       mode="loop"
       trigger="in-view"
       width={520}

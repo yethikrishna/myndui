@@ -14,7 +14,7 @@ The download CTA that sits under every app hero. Drop in an App Store or Google 
 <Example
   label="Default"
   story="layout-store-badge"
-  code={`import { StoreBadge, StoreBadgeGroup } from "@/components/godui/store-badge";
+  code={`import { StoreBadge, StoreBadgeGroup } from "@/components/myndui/store-badge";
 
 export function Download() {
   return (
@@ -53,7 +53,7 @@ QR is generated on the client from the URL — no image, no setup.
 ## Usage
 
 ```tsx
-import { StoreBadge, StoreBadgeGroup } from "@/components/godui/store-badge";
+import { StoreBadge, StoreBadgeGroup } from "@/components/myndui/store-badge";
 ```
 
 ```tsx
@@ -68,7 +68,7 @@ The `QrCode` primitive is exported too, for any link — with theming and an
 optional center logo:
 
 ```tsx
-import { QrCode } from "@/components/godui/store-badge";
+import { QrCode } from "@/components/myndui/store-badge";
 
 <QrCode value="https://apps.apple.com/app/id6761287549" size={180} logo={<Logo />} />;
 ```

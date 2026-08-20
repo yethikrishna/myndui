@@ -1,9 +1,9 @@
 ---
-name: godui-learn-article
-description: Add a "Learn" tab + tier-S design-engineer article to a GodUI component docs page. Use when writing a Learn deep-dive for a component (motion breakdown, scroll-triggered animated scenes with replay, annotated code, live result). Covers routing, sidebar hiding, the ScrollScene primitive, scene patterns, and every gotcha.
+name: myndui-learn-article
+description: Add a "Learn" tab + tier-S design-engineer article to a Myndui component docs page. Use when writing a Learn deep-dive for a component (motion breakdown, scroll-triggered animated scenes with replay, annotated code, live result). Covers routing, sidebar hiding, the ScrollScene primitive, scene patterns, and every gotcha.
 ---
 
-# GodUI Learn Article
+# Myndui Learn Article
 
 A **Learn** tab sits at the right of a component page's breadcrumb row (`Docs | Learn`
 segmented control). `Docs` is the normal component page; `Learn` is a blog-style,
@@ -247,11 +247,11 @@ Reference scenes (technique patterns, not templates to clone):
 
 End with the real, interactive component so the reader feels every mechanism. Copy /
 generalize `result-preview.tsx` — same `ComponentPreview`-style chrome, importing the
-component from `@godui/components`:
+component from `@myndui/components`:
 
 ```tsx
 "use client";
-import { TheComponent } from "@godui/components";
+import { TheComponent } from "@myndui/components";
 // …chrome (border/rounded-2xl/bg-fd-card + bar label "Result")…
 // <TheComponent /> instances in a centered flex canvas
 ```
@@ -389,7 +389,7 @@ drive CDP over the built-in global `WebSocket` (Node ≥20): click
 
 - **Flat sibling file breaks the sidebar.** Must be `folder/index.mdx` + `folder/learn.mdx`
   so the prune plugin can collapse the folder to a leaf.
-- **`bg-fd-muted` renders wrong** — the GodUI theme aliases `--color-fd-muted` to
+- **`bg-fd-muted` renders wrong** — the Myndui theme aliases `--color-fd-muted` to
   muted-foreground. Use raw `bg-[var(--muted)]` / `bg-[var(--card)]` (matches
   `Segmented` in `docs-tabs.tsx`).
 - **Custom CSS vars in `style`** need a cast: `style={{ "--tz": "78px" } as CSSProperties}`
@@ -405,7 +405,7 @@ drive CDP over the built-in global `WebSocket` (Node ≥20): click
   commit. Pre-existing `<img>` warnings in demos are warnings (non-blocking); an
   unsorted import is an error (blocking).
 - **Don't animate layout/paint props** even though docs scenes aren't CI-gated.
-- **Live component import** works in docs (`@godui/components`); the docs `index.mdx`
+- **Live component import** works in docs (`@myndui/components`); the docs `index.mdx`
   already imports components the same way.
 - **Legend ≠ opacity pills.** Never default every legend entry to
   `h-1.5 w-8 rounded-full` with only `--foreground` opacity changes. Shape-match the

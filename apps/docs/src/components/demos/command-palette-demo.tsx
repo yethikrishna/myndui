@@ -1,6 +1,6 @@
 "use client";
 
-import { type CommandGroup, CommandPalette } from "@godui/components";
+import { type CommandGroup, CommandPalette } from "@myndui/components";
 import { useState } from "react";
 
 const groups: CommandGroup[] = [

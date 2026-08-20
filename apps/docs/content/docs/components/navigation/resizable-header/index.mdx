@@ -14,7 +14,7 @@ A sticky navbar that springs into a compact, blurred floating pill as you scroll
   label="Default"
   story="navigation-resizable-header"
   code={`"use client";
-import { ResizableHeader } from "@/components/godui/resizable-header";
+import { ResizableHeader } from "@/components/myndui/resizable-header";
 import { useState } from "react";
 
 const links = [
@@ -51,7 +51,7 @@ export function HeaderDemo() {
 ## Usage
 
 ```tsx
-import { ResizableHeader } from "@/components/godui/resizable-header";
+import { ResizableHeader } from "@/components/myndui/resizable-header";
 ```
 
 ```tsx
@@ -80,7 +80,7 @@ const scrollRef = useRef(null);
 
 | Prop | Type | Default | Description |
 | ---- | ---- | ------- | ----------- |
-| `logo` | `ReactNode` | `"GodUI"` | Brand mark on the left |
+| `logo` | `ReactNode` | `"Myndui"` | Brand mark on the left |
 | `links` | `HeaderLink[]` | `[]` | Navigation links: `{ label, href }` |
 | `activeHref` | `string` | — | `href` of the active link |
 | `cta` | `ReactNode` | — | Call-to-action node on the right |

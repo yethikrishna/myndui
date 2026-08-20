@@ -1,6 +1,6 @@
 "use client";
 
-import { ToastProvider, toast } from "@godui/components";
+import { ToastProvider, toast } from "@myndui/components";
 
 export function ToastDemo() {
   return (

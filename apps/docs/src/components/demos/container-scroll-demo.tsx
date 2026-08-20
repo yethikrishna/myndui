@@ -1,6 +1,6 @@
 "use client";
 
-import { ContainerScroll } from "@godui/components";
+import { ContainerScroll } from "@myndui/components";
 import { useRef } from "react";
 import { DemoScrollPort } from "@/components/demos/_kit";
 

@@ -1,4 +1,4 @@
-import { LightRays, type LightRaysProps } from "@godui/components";
+import { LightRays, type LightRaysProps } from "@myndui/components";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import {
   type PresetMap,

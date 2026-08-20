@@ -1,6 +1,6 @@
 "use client";
 
-import { BorderBeam } from "@godui/components";
+import { BorderBeam } from "@myndui/components";
 
 export function BorderBeamDemo() {
   return (

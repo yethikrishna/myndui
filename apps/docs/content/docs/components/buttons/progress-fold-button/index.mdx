@@ -4,7 +4,7 @@ description: A 3D button whose front face folds back to reveal a controlled prog
 workbench: true
 ---
 
-import { ProgressFoldButton } from "@godui/components";
+import { ProgressFoldButton } from "@myndui/components";
 
 <Workbench>
 
@@ -13,7 +13,7 @@ A 3D button whose front face folds back to reveal a controlled progress bar whil
 <Example
   label="Default"
   story="buttons-progress-fold-button"
-  code={`import { ProgressFoldButton } from "@/components/godui/progress-fold-button";
+  code={`import { ProgressFoldButton } from "@/components/myndui/progress-fold-button";
 
 export function ProgressFoldButtonDemo() {
   return <ProgressFoldButton variant="primary">Publish</ProgressFoldButton>;
@@ -81,7 +81,7 @@ export function ProgressFoldButtonDemo() {
 ## Usage
 
 ```tsx
-import { ProgressFoldButton } from "@/components/godui/progress-fold-button";
+import { ProgressFoldButton } from "@/components/myndui/progress-fold-button";
 ```
 
 ```tsx
@@ -103,7 +103,7 @@ Wire it up by flipping `status` from your handler:
 
 ```tsx
 import * as React from "react";
-import { ProgressFoldButton } from "@/components/godui/progress-fold-button";
+import { ProgressFoldButton } from "@/components/myndui/progress-fold-button";
 
 export function Example() {
   const [status, setStatus] = React.useState<"idle" | "loading">("idle");

@@ -1,6 +1,6 @@
 "use client";
 
-import { ContextMenu, type ContextMenuItem } from "@godui/components";
+import { ContextMenu, type ContextMenuItem } from "@myndui/components";
 import {
   Copy,
   Download,

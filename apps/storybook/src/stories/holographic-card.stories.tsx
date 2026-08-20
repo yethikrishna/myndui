@@ -1,4 +1,4 @@
-import { HolographicCard } from "@godui/components";
+import { HolographicCard } from "@myndui/components";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { range, select, toggle } from "../playground/argtypes";
 import { centered } from "../playground/stage";
@@ -35,7 +35,7 @@ const meta = {
       </div>
       <div className="mt-32">
         <h3 className="text-2xl font-semibold tracking-tight text-white">
-          GodUI
+          Myndui
         </h3>
         <p className="mt-2 text-sm text-white/70">
           Move your pointer across the card to catch the foil.

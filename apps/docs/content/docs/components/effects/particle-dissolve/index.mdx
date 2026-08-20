@@ -4,7 +4,7 @@ description: Text or an image is sampled into particles that scatter and reform 
 workbench: true
 ---
 
-import { ParticleDissolve } from "@godui/components";
+import { ParticleDissolve } from "@myndui/components";
 import { ParticleDissolveDemo } from "@/components/demos/particle-dissolve-demo";
 
 <Workbench>
@@ -14,10 +14,10 @@ The source — a headline, a logo, or an image — is sampled into thousands of 
 <Example
   label="Default"
   story="effects-particledissolve"
-  code={`import { ParticleDissolve } from "@/components/godui/particle-dissolve";
+  code={`import { ParticleDissolve } from "@/components/myndui/particle-dissolve";
 
 export function Hero() {
-  return <ParticleDissolve text="GodUI" mode="loop" trigger="in-view" className="text-primary" />;
+  return <ParticleDissolve text="Myndui" mode="loop" trigger="in-view" className="text-primary" />;
 }`}
 >
   <ParticleDissolveDemo />
@@ -35,7 +35,7 @@ form/scatter progress, with a per-particle delay for the stagger.
 ## Usage
 
 ```tsx
-import { ParticleDissolve } from "@/components/godui/particle-dissolve";
+import { ParticleDissolve } from "@/components/myndui/particle-dissolve";
 ```
 
 ### Text

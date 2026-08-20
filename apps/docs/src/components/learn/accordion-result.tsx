@@ -1,6 +1,6 @@
 "use client";
 
-import { Accordion } from "@godui/components";
+import { Accordion } from "@myndui/components";
 import { useBareScene } from "@/components/learn/bare-scene-context";
 
 /**
@@ -11,7 +11,7 @@ import { useBareScene } from "@/components/learn/bare-scene-context";
 const FAQ_ITEMS = [
   {
     value: "what",
-    title: "What is GodUI?",
+    title: "What is Myndui?",
     content:
       "A collection of animated React components built with Tailwind CSS and Framer Motion.",
   },

@@ -32,7 +32,7 @@ const features: Feature[] = [
     icon: Bot,
     title: "MCP-native",
     description:
-      "Your AI agent installs components by name through the GodUI MCP server — no context-switching.",
+      "Your AI agent installs components by name through the Myndui MCP server — no context-switching.",
   },
   {
     icon: Sparkles,
@@ -58,7 +58,7 @@ export function FeaturesSection() {
   return (
     <section className="relative z-10 mx-auto w-full max-w-6xl px-4 py-20 sm:py-28">
       <SectionHeading
-        eyebrow="Why GodUI"
+        eyebrow="Why Myndui"
         title="Everything you need, nothing you don't"
         description="A component library designed for modern React stacks and the AI tools you already build with."
       />

@@ -3,7 +3,7 @@
  * Install: npm i geist
  *
  * @example
- * import { GeistSans, GeistMono } from "@godui/components/fonts/next";
+ * import { GeistSans, GeistMono } from "@myndui/components/fonts/next";
  *
  * export default function RootLayout({ children }) {
  *   return (

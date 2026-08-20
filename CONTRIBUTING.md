@@ -1,6 +1,6 @@
-# Contributing to GodUI
+# Contributing to Myndui
 
-Thanks for your interest in contributing to [GodUI](https://godui.design)! New
+Thanks for your interest in contributing to [Myndui](https://myndui.design)! New
 components, bug fixes, documentation improvements, and ideas are all welcome.
 
 By participating, you agree to follow our [Code of Conduct](./CODE_OF_CONDUCT.md).
@@ -14,8 +14,8 @@ By participating, you agree to follow our [Code of Conduct](./CODE_OF_CONDUCT.md
 
 ```bash
 # 1. Fork the repo on GitHub, then clone your fork
-git clone https://github.com/<your-username>/godui.git
-cd godui
+git clone https://github.com/<your-username>/myndui.git
+cd myndui
 
 # 2. Install dependencies
 pnpm install
@@ -26,15 +26,15 @@ pnpm dev
 
 ## Repository layout
 
-GodUI is a [pnpm](https://pnpm.io) + [Turborepo](https://turborepo.com) monorepo:
+Myndui is a [pnpm](https://pnpm.io) + [Turborepo](https://turborepo.com) monorepo:
 
 ```
-godui/
+myndui/
 ├── apps/
 │   ├── docs/          # Documentation site (Next.js + Fumadocs)
 │   └── storybook/     # Component showcase (Storybook)
 ├── packages/
-│   └── components/    # @godui/components — the component library
+│   └── components/    # @myndui/components — the component library
 └── registry.json      # shadcn registry definition (source of truth)
 ```
 
@@ -60,7 +60,7 @@ godui/
 
 ## Code style
 
-GodUI uses [Biome](https://biomejs.dev) for linting and formatting. Run this
+Myndui uses [Biome](https://biomejs.dev) for linting and formatting. Run this
 before committing:
 
 ```bash
@@ -96,5 +96,5 @@ docs(installation): clarify dark-mode setup
 
 ## Questions
 
-Open a [GitHub issue](https://github.com/LucasBassetti/godui/issues) for bugs,
+Open a [GitHub issue](https://github.com/YethikrishnaR/myndui/issues) for bugs,
 feature requests, or questions. Thanks for contributing! 🙌

@@ -56,7 +56,7 @@ export function useResizablePane({
   axis: ResizableAxis;
   /** Custom property written on document.documentElement, e.g. `--wb-panel-user`. */
   cssVar: `--${string}`;
-  /** Field inside the `godui:workbench:v1` blob. */
+  /** Field inside the `myndui:workbench:v1` blob. */
   storageKey: "panelW" | "codeH";
   defaultPx: number;
   /** Bounds, recomputed per move from the live container size. */

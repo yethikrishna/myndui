@@ -4,7 +4,7 @@ description: Slowly drifting topographic contour lines — a living elevation ma
 workbench: true
 ---
 
-import { TopographicDrift } from "@godui/components";
+import { TopographicDrift } from "@myndui/components";
 
 <Workbench>
 
@@ -16,7 +16,7 @@ squares on one Canvas. Drop it as the first child of a `relative` container.
   label="Default"
   fullWidth
   story="backgrounds-topographic-drift"
-  code={`import { TopographicDrift } from "@/components/godui/topographic-drift";
+  code={`import { TopographicDrift } from "@/components/myndui/topographic-drift";
 
 export function TopographicDriftDemo() {
   return (
@@ -46,7 +46,7 @@ export function TopographicDriftDemo() {
 ## Usage
 
 ```tsx
-import { TopographicDrift } from "@/components/godui/topographic-drift";
+import { TopographicDrift } from "@/components/myndui/topographic-drift";
 
 <div className="relative overflow-hidden">
   <TopographicDrift />
@@ -68,7 +68,7 @@ More levels, finer terrain.
 <Example
   label="Dense"
   fullWidth
-  code={`import { TopographicDrift } from "@/components/godui/topographic-drift";
+  code={`import { TopographicDrift } from "@/components/myndui/topographic-drift";
 
 export function TopographicDriftDense() {
   return (

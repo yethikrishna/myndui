@@ -1,9 +1,9 @@
 {
-  "name": "@godui/cli",
+  "name": "@myndui/cli",
   "version": "0.1.0",
-  "description": "Install the GodUI MCP server into your AI IDE with one command.",
+  "description": "Install the Myndui MCP server into your AI IDE with one command.",
   "keywords": [
-    "godui",
+    "myndui",
     "cli",
     "mcp",
     "cursor",
@@ -11,16 +11,16 @@
     "claude",
     "cline"
   ],
-  "homepage": "https://godui.design",
+  "homepage": "https://myndui.design",
   "repository": {
     "type": "git",
-    "url": "https://github.com/godui-design/godui.git",
+    "url": "https://github.com/myndui-design/myndui.git",
     "directory": "packages/cli"
   },
   "license": "MIT",
   "type": "module",
   "bin": {
-    "godui": "dist/index.js"
+    "myndui": "dist/index.js"
   },
   "files": [
     "dist"

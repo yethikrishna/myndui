@@ -1,6 +1,6 @@
 "use client";
 
-import { ScrollTextReveal } from "@godui/components";
+import { ScrollTextReveal } from "@myndui/components";
 import { useBareScene } from "@/components/learn/bare-scene-context";
 
 /**

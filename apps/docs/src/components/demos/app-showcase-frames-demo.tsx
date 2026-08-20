@@ -1,8 +1,8 @@
 "use client";
 
-import { AppShowcase } from "@godui/components";
+import { AppShowcase } from "@myndui/components";
 
-const SRC = "https://picsum.photos/seed/godui-app/600/1300";
+const SRC = "https://picsum.photos/seed/myndui-app/600/1300";
 
 export function AppShowcaseFramesDemo() {
   return (

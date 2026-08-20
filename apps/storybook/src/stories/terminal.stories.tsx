@@ -2,11 +2,11 @@ import {
   Terminal,
   type TerminalLine,
   type TerminalProps,
-} from "@godui/components";
+} from "@myndui/components";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 
 const LINES: TerminalLine[] = [
-  { text: "npm install @godui/components", type: "command" },
+  { text: "npm install @myndui/components", type: "command" },
   { text: "added 1 package in 1.2s", type: "output", delay: 500 },
   { text: "", type: "output", delay: 120 },
   { text: "npm run build", type: "command" },
@@ -21,7 +21,7 @@ const meta = {
   parameters: { layout: "centered" },
   args: {
     lines: LINES,
-    title: "zsh — godui",
+    title: "zsh — myndui",
     typingSpeed: 38,
     startOnView: false,
     loop: false,

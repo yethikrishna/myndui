@@ -163,7 +163,7 @@ export function Segmented({
       }
       aria-label={composite ? label : undefined}
       className={cn(
-        // NB: --color-fd-muted is aliased to muted-foreground in the GodUI
+        // NB: --color-fd-muted is aliased to muted-foreground in the Myndui
         // theme, so bg-fd-muted renders light in dark mode. Use the real
         // --muted/--card tokens directly for a correct, contrasting track.
         // Grid (not inline-flex) so every segment is an equal-width column —

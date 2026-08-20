@@ -1,6 +1,6 @@
 "use client";
 
-import { LiquidGlassLens } from "@godui/components";
+import { LiquidGlassLens } from "@myndui/components";
 import { useBareScene } from "@/components/learn/bare-scene-context";
 
 /**

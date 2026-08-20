@@ -1,4 +1,4 @@
-import { AnimatedTestimonials } from "@godui/components";
+import { AnimatedTestimonials } from "@myndui/components";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { hidden, range, toggle } from "../playground/argtypes";
 import { centered } from "../playground/stage";
@@ -6,7 +6,7 @@ import { centered } from "../playground/stage";
 const testimonials = [
   {
     quote:
-      "GodUI shipped the smoothest interactions I've put in production this year.",
+      "Myndui shipped the smoothest interactions I've put in production this year.",
     name: "Ada Lovelace",
     role: "Design Engineer, Analytical",
     src: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&q=80",

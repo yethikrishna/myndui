@@ -4,7 +4,7 @@ description: Volumetric god-rays that slowly sweep and breathe, with optional fi
 workbench: true
 ---
 
-import { LightRays } from "@godui/components";
+import { LightRays } from "@myndui/components";
 
 <Workbench>
 
@@ -17,7 +17,7 @@ the spotlight-from-the-heavens hero. Pure CSS. Drop it as the first child of a
   label="Default"
   fullWidth
   story="backgrounds-light-rays"
-  code={`import { LightRays } from "@/components/godui/light-rays";
+  code={`import { LightRays } from "@/components/myndui/light-rays";
 
 export function LightRaysDemo() {
   return (
@@ -47,7 +47,7 @@ export function LightRaysDemo() {
 ## Usage
 
 ```tsx
-import { LightRays } from "@/components/godui/light-rays";
+import { LightRays } from "@/components/myndui/light-rays";
 
 <div className="relative overflow-hidden">
   <LightRays />
@@ -66,7 +66,7 @@ content at `z-raised`+. Color defaults to `--color-primary`. The sweep stops und
 <Example
   label="Warm"
   fullWidth
-  code={`import { LightRays } from "@/components/godui/light-rays";
+  code={`import { LightRays } from "@/components/myndui/light-rays";
 
 export function LightRaysWarm() {
   return (

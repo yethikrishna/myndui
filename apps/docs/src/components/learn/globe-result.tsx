@@ -1,6 +1,6 @@
 "use client";
 
-import { Globe } from "@godui/components";
+import { Globe } from "@myndui/components";
 import { useBareScene } from "@/components/learn/bare-scene-context";
 
 /**

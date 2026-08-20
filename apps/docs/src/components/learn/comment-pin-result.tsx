@@ -1,6 +1,6 @@
 "use client";
 
-import { type Comment, CommentPin } from "@godui/components";
+import { type Comment, CommentPin } from "@myndui/components";
 import { useState } from "react";
 import { useBareScene } from "@/components/learn/bare-scene-context";
 

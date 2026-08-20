@@ -1,6 +1,6 @@
 "use client";
 
-import { AppShowcase } from "@godui/components";
+import { AppShowcase } from "@myndui/components";
 
 export function AppShowcaseDemo() {
   return (
@@ -9,7 +9,7 @@ export function AppShowcaseDemo() {
         device="iphone"
         mode="loop"
         width={260}
-        src="https://picsum.photos/seed/godui-app/600/1300"
+        src="https://picsum.photos/seed/myndui-app/600/1300"
         alt="App home screen"
       />
     </div>

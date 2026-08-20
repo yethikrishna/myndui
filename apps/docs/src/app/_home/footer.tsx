@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { siteConfig } from "@/lib/site-config";
-import { GoduiLogo } from "../docs/_components/godui-logo";
+import { MynduiLogo } from "../docs/_components/myndui-logo";
 
 // Kept in sync with ANIMATED_ICONS_URL in docs/_components/docs-header.tsx.
 const ANIMATED_ICONS_URL = "https://svg-animated-icons.vercel.app/";
@@ -86,7 +86,7 @@ export function Footer() {
             href="/"
             className="inline-flex items-center gap-2 font-bold text-[0.9375rem] text-fd-foreground"
           >
-            <GoduiLogo className="h-6 w-6" width={24} height={24} />
+            <MynduiLogo className="h-6 w-6" width={24} height={24} />
             {siteConfig.name}
           </Link>
           <p className="max-w-xs text-fd-muted-foreground text-sm leading-relaxed">

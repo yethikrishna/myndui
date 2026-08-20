@@ -1,11 +1,11 @@
 "use client";
 
-import { AppShowcase } from "@godui/components";
+import { AppShowcase } from "@myndui/components";
 
 const SCREENS = [
-  "https://picsum.photos/seed/godui-a/600/1300",
-  "https://picsum.photos/seed/godui-b/600/1300",
-  "https://picsum.photos/seed/godui-c/600/1300",
+  "https://picsum.photos/seed/myndui-a/600/1300",
+  "https://picsum.photos/seed/myndui-b/600/1300",
+  "https://picsum.photos/seed/myndui-c/600/1300",
 ];
 
 export function AppShowcaseCarouselDemo() {

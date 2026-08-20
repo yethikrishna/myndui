@@ -14,15 +14,15 @@ Nothing says "developer tool" like a terminal that types itself. `Terminal` play
 <Example
   label="Default"
   story="effects-terminal"
-  code={`import { Terminal } from "@/components/godui/terminal";
+  code={`import { Terminal } from "@/components/myndui/terminal";
 
 export function Install() {
   return (
     <Terminal
-      title="zsh — godui"
+      title="zsh — myndui"
       loop
       lines={[
-        { text: "npm install @godui/components", type: "command" },
+        { text: "npm install @myndui/components", type: "command" },
         { text: "added 1 package in 1.2s", type: "output", delay: 500 },
         { text: "npm run build", type: "command" },
         { text: "✓ Ready in 240ms", type: "output", delay: 300 },
@@ -41,7 +41,7 @@ export function Install() {
 ## Usage
 
 ```tsx
-import { Terminal } from "@/components/godui/terminal";
+import { Terminal } from "@/components/myndui/terminal";
 ```
 
 Drive it with a `lines` array. Mark commands with `type: "command"` so they type

@@ -1,6 +1,6 @@
 {
   "apps": {
-    "apps/docs": { "name": "godui-docs" },
-    "apps/storybook": { "name": "godui-storybook" }
+    "apps/docs": { "name": "myndui-docs" },
+    "apps/storybook": { "name": "myndui-storybook" }
   }
 }

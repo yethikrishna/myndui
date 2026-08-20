@@ -1,6 +1,6 @@
 "use client";
 
-import { MagicButton } from "@godui/components";
+import { MagicButton } from "@myndui/components";
 import { useBareScene } from "@/components/learn/bare-scene-context";
 
 const Demo = () => (

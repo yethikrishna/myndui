@@ -1,4 +1,4 @@
-import { ScrollReveal, type ScrollRevealProps } from "@godui/components";
+import { ScrollReveal, type ScrollRevealProps } from "@myndui/components";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { range, select, toggle } from "../playground/argtypes";
 

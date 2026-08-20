@@ -1,5 +1,5 @@
 /**
- * GodUI motion tokens — the single source of truth for the library's motion
+ * Myndui motion tokens — the single source of truth for the library's motion
  * language. Documented in the Motion Guidelines (Principles + Patterns).
  *
  * Copy-paste components are self-contained, so they don't import this module at
@@ -24,7 +24,7 @@ export const DURATION = {
 export const EASE = {
   /** Decelerate-to-rest. The expressive "settle" curve (reveals, FAQ). */
   out: [0.22, 1, 0.36, 1],
-  /** The default GodUI curve — a touch of spring without overshoot. */
+  /** The default Myndui curve — a touch of spring without overshoot. */
   standard: [0.3, 0.7, 0.4, 1],
   /** Overshoot variant of `standard` for playful pops and lifts. */
   back: [0.3, 0.7, 0.4, 1.5],

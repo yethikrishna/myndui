@@ -1,4 +1,4 @@
-import { OrbitingCircles, type OrbitingCirclesProps } from "@godui/components";
+import { OrbitingCircles, type OrbitingCirclesProps } from "@myndui/components";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { range, toggle } from "../playground/argtypes";
 

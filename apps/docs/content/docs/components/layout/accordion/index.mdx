@@ -4,12 +4,12 @@ description: A disclosure list with spring height animation, rotating chevrons, 
 workbench: true
 ---
 
-import { Accordion } from "@godui/components";
+import { Accordion } from "@myndui/components";
 
 export const faqItems = [
   {
     value: "what",
-    title: "What is GodUI?",
+    title: "What is Myndui?",
     content:
       "A collection of animated React components built with Tailwind CSS and Framer Motion.",
   },
@@ -32,10 +32,10 @@ A disclosure list with spring height animation, rotating chevrons, and single or
 <Example
   label="Default"
   story="layout-accordion"
-  code={`import { Accordion } from "@/components/godui/accordion";
+  code={`import { Accordion } from "@/components/myndui/accordion";
 
 const items = [
-  { value: "what", title: "What is GodUI?", content: "An animated component library." },
+  { value: "what", title: "What is Myndui?", content: "An animated component library." },
   { value: "install", title: "How do I install?", content: "Use the shadcn CLI." },
 ];
 
@@ -54,7 +54,7 @@ export function AccordionDemo() {
 
 <Example
   label="Multiple Open"
-  code={`import { Accordion } from "@/components/godui/accordion";
+  code={`import { Accordion } from "@/components/myndui/accordion";
 
 export function AccordionMultiple() {
   return <Accordion items={items} type="multiple" />;
@@ -71,7 +71,7 @@ export function AccordionMultiple() {
 
 <Example
   label="Animation"
-  code={`import { Accordion } from "@/components/godui/accordion";
+  code={`import { Accordion } from "@/components/myndui/accordion";
 
 export function AccordionBounce() {
   return <Accordion items={items} defaultValue="what" animation="bounce" />;
@@ -89,7 +89,7 @@ export function AccordionBounce() {
 ## Usage
 
 ```tsx
-import { Accordion } from "@godui/components";
+import { Accordion } from "@myndui/components";
 
 <Accordion
   type="single"

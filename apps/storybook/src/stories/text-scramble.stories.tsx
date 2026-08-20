@@ -1,4 +1,4 @@
-import { TextScramble, type TextScrambleProps } from "@godui/components";
+import { TextScramble, type TextScrambleProps } from "@myndui/components";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { range, select } from "../playground/argtypes";
 

@@ -1,10 +1,10 @@
 @import "tailwindcss";
-@import "@godui/components/styles.css";
+@import "@myndui/components/styles.css";
 @import "fumadocs-ui/css/preset.css";
 
 @source "../../../../packages/components/src";
 
-/* Map Fumadocs design tokens onto the @godui theme so docs UI follows it */
+/* Map Fumadocs design tokens onto the @myndui theme so docs UI follows it */
 @theme inline {
   --color-fd-background: var(--color-background);
   --color-fd-foreground: var(--color-foreground);
@@ -178,7 +178,7 @@ body {
   padding-bottom: 0.25rem;
   font-size: 0.8125rem;
   /* Subtle 9px corners on the hover/active pill (Fumadocs' rounded-lg resolves
-     much larger via the GodUI --radius-lg token). */
+     much larger via the Myndui --radius-lg token). */
   border-radius: 9px;
 }
 
@@ -646,8 +646,8 @@ figure.shiki button[aria-label]:not([data-checked])::before {
   width: 1rem;
   height: 1rem;
   background: currentColor;
-  -webkit-mask: var(--godui-copy-icon) center / contain no-repeat;
-  mask: var(--godui-copy-icon) center / contain no-repeat;
+  -webkit-mask: var(--myndui-copy-icon) center / contain no-repeat;
+  mask: var(--myndui-copy-icon) center / contain no-repeat;
 }
 
 /* Match the code-block title bar height to the install blocks' header
@@ -1061,7 +1061,7 @@ figure.shiki div:has(> button[aria-label]) {
 }
 
 /* Copy button: pop the icon in when it swaps to the success check mark. */
-@keyframes godui-tool-pop {
+@keyframes myndui-tool-pop {
   0% {
     transform: scale(0.3) rotate(-18deg);
     opacity: 0;
@@ -1077,7 +1077,7 @@ figure.shiki div:has(> button[aria-label]) {
 }
 
 /* Replay button: full-turn spin of the arrow on click. */
-@keyframes godui-replay-spin {
+@keyframes myndui-replay-spin {
   from {
     rotate: 0deg;
   }
@@ -1089,7 +1089,7 @@ figure.shiki div:has(> button[aria-label]) {
 /* Replay button: a beam races along the border from top-right to bottom-left.
    pathLength is normalized to 100, so the 20-unit dash is a fifth of each half
    of the perimeter. Offset starts before the path and exits past its end. */
-@keyframes godui-replay-beam {
+@keyframes myndui-replay-beam {
   from {
     stroke-dashoffset: 20;
     opacity: 1;
@@ -1107,8 +1107,8 @@ figure.shiki div:has(> button[aria-label]) {
    close trigger for a proper close (X) icon. The drawer markup is owned by
    fumadocs, so we mask the lucide panel-left glyph rather than fork the slot. */
 :root {
-  --godui-close-icon: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='%23000'%20stroke-width='2.5'%20stroke-linecap='round'%20stroke-linejoin='round'%3E%3Cpath%20d='M18%206%206%2018'/%3E%3Cpath%20d='m6%206%2012%2012'/%3E%3C/svg%3E");
-  --godui-copy-icon: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='%23000'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%3E%3Crect%20width='14'%20height='14'%20x='8'%20y='8'%20rx='2'%20ry='2'/%3E%3Cpath%20d='M4%2016c-1.1%200-2-.9-2-2V4c0-1.1.9-2%202-2h10c1.1%200%202%20.9%202%202'/%3E%3C/svg%3E");
+  --myndui-close-icon: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='%23000'%20stroke-width='2.5'%20stroke-linecap='round'%20stroke-linejoin='round'%3E%3Cpath%20d='M18%206%206%2018'/%3E%3Cpath%20d='m6%206%2012%2012'/%3E%3C/svg%3E");
+  --myndui-copy-icon: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='%23000'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%3E%3Crect%20width='14'%20height='14'%20x='8'%20y='8'%20rx='2'%20ry='2'/%3E%3Cpath%20d='M4%2016c-1.1%200-2-.9-2-2V4c0-1.1.9-2%202-2h10c1.1%200%202%20.9%202%202'/%3E%3C/svg%3E");
 }
 #nd-sidebar-mobile button:has(> .lucide-panel-left) > .lucide-panel-left {
   display: none;
@@ -1118,8 +1118,8 @@ figure.shiki div:has(> button[aria-label]) {
   width: 1.25rem;
   height: 1.25rem;
   background: currentColor;
-  -webkit-mask: var(--godui-close-icon) center / contain no-repeat;
-  mask: var(--godui-close-icon) center / contain no-repeat;
+  -webkit-mask: var(--myndui-close-icon) center / contain no-repeat;
+  mask: var(--myndui-close-icon) center / contain no-repeat;
 }
 
 /* aeo.js ships a fixed floating Human/AI toggle. We drive its overlay from a
@@ -1129,7 +1129,7 @@ figure.shiki div:has(> button[aria-label]) {
   display: none !important;
 }
 
-/* "Built with GodUI" TOC card — subtle primary-tinted gradient surface. */
+/* "Built with Myndui" TOC card — subtle primary-tinted gradient surface. */
 .toc-cta {
   background: linear-gradient(
     160deg,

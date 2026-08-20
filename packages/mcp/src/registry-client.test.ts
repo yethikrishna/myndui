@@ -5,7 +5,7 @@ describe("registry client", () => {
   it("fetches the index from <base>/index.json and caches it", async () => {
     const fetchJsonImpl = vi
       .fn()
-      .mockResolvedValue({ name: "godui", homepage: "x", components: [] });
+      .mockResolvedValue({ name: "myndui", homepage: "x", components: [] });
     const client = createRegistryClient({
       baseUrl: "http://localhost:3000/r",
       fetchJsonImpl,
@@ -20,14 +20,14 @@ describe("registry client", () => {
     );
   });
 
-  it("fetches a component, strips the @godui/ prefix, and caches per key", async () => {
+  it("fetches a component, strips the @myndui/ prefix, and caches per key", async () => {
     const fetchJsonImpl = vi.fn().mockResolvedValue({ name: "magic-button" });
     const client = createRegistryClient({
       baseUrl: "http://localhost:3000/r",
       fetchJsonImpl,
     });
 
-    await client.getComponent("@godui/magic-button");
+    await client.getComponent("@myndui/magic-button");
     await client.getComponent("magic-button");
 
     expect(fetchJsonImpl).toHaveBeenCalledTimes(1);

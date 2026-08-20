@@ -5,7 +5,7 @@ import {
   ConversationMessage,
   ConversationThread,
   StreamingText,
-} from "@godui/components";
+} from "@myndui/components";
 import { Copy, RotateCcw, ThumbsUp } from "lucide-react";
 import * as React from "react";
 import { useBareScene } from "@/components/learn/bare-scene-context";
@@ -40,7 +40,7 @@ export function ConversationThreadResult() {
         </ConversationMessage>
         <ConversationMessage
           role="assistant"
-          name="GodUI"
+          name="Myndui"
           actions={ACTIONS}
           streaming={streaming}
         >

@@ -15,7 +15,7 @@ function flaps(container: HTMLElement) {
 
 describe("SplitFlapDisplay", () => {
   it("renders one flap per character of the value", () => {
-    const { container } = render(<SplitFlapDisplay value="GODUI" />);
+    const { container } = render(<SplitFlapDisplay value="MYNDUI" />);
     expect(flaps(container)).toHaveLength(5);
   });
 

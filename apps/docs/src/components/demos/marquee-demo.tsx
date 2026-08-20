@@ -1,6 +1,6 @@
 "use client";
 
-import { Marquee } from "@godui/components";
+import { Marquee } from "@myndui/components";
 import type { ReactNode } from "react";
 
 function Logo({ mark, name }: { mark: ReactNode; name: string }) {

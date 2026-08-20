@@ -1,6 +1,6 @@
 "use client";
 
-import { OrbitingCircles } from "@godui/components";
+import { OrbitingCircles } from "@myndui/components";
 import { Box, Cloud, Cpu, Hexagon, Layers, Zap } from "lucide-react";
 import { useBareScene } from "@/components/learn/bare-scene-context";
 
@@ -20,7 +20,7 @@ export function OrbitingCirclesResult() {
   const demo = (
     <>
       <span className="pointer-events-none z-raised rounded-xl bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground shadow-md">
-        GodUI
+        Myndui
       </span>
 
       <OrbitingCircles

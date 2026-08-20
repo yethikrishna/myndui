@@ -10,7 +10,7 @@ import { ArrowUpRight, Bot, Menu } from "lucide-react";
 import { type ComponentProps, useEffect, useState } from "react";
 import { cn } from "@/lib/cn";
 import { GitHubStars } from "./github-stars";
-import { GoduiLogo } from "./godui-logo";
+import { MynduiLogo } from "./myndui-logo";
 import { ThemeToggle } from "./theme-toggle";
 
 const iconButton =
@@ -95,10 +95,10 @@ export function DocsHeader({
       >
         <Link
           href="/"
-          className="godui-hover-group inline-flex items-center gap-2 font-bold text-[0.9375rem] text-fd-foreground"
+          className="myndui-hover-group inline-flex items-center gap-2 font-bold text-[0.9375rem] text-fd-foreground"
         >
-          <GoduiLogo className="h-6 w-6" width={24} height={24} />
-          GodUI
+          <MynduiLogo className="h-6 w-6" width={24} height={24} />
+          Myndui
         </Link>
         {/* Desktop nav links. On mobile these live in the sidebar drawer's
           "Menu" section instead (see MobileMenu). */}
@@ -137,7 +137,7 @@ export function DocsHeader({
           />
           <GitHubStars />
           <a
-            href="https://x.com/LucasBassetti"
+            href="https://x.com/YethikrishnaR"
             target="_blank"
             rel="noreferrer"
             title="Follow on X"

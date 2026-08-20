@@ -1,6 +1,6 @@
 "use client";
 
-import { type PromptSuggestion, PromptSuggestions } from "@godui/components";
+import { type PromptSuggestion, PromptSuggestions } from "@myndui/components";
 import { useState } from "react";
 import { useBareScene } from "@/components/learn/bare-scene-context";
 

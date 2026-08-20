@@ -2,13 +2,13 @@ import {
   MOTION_ALLOWLIST,
   type MotionGrade,
   motionTier,
-} from "@godui/components";
+} from "@myndui/components";
 import { MOTION_NOTES, STATIC_COMPONENTS } from "./motion-notes";
 
 /**
  * Per-component MotionScore for the docs badge. Grades a component by the worst
  * tier of anything it animates (see the official tiers in
- * `@godui/components`'s `motion-score.ts`), reading the render-cost signals the
+ * `@myndui/components`'s `motion-score.ts`), reading the render-cost signals the
  * repo already curates — the `MOTION_NOTES` kind/reason, whether it's a
  * `STATIC_COMPONENTS` member, and the GATED props it's sanctioned to animate in
  * `MOTION_ALLOWLIST`. Keyed by the same component name used by `MOTION_NOTES`

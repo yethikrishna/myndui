@@ -1,4 +1,4 @@
-import { SplitFlapDisplay } from "@godui/components";
+import { SplitFlapDisplay } from "@myndui/components";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { hidden, radio, range, select, text } from "../playground/argtypes";
 import { centered } from "../playground/stage";
@@ -38,7 +38,7 @@ export const Small: Story = {
 };
 
 export const Large: Story = {
-  args: { value: "GODUI", size: "lg" },
+  args: { value: "MYNDUI", size: "lg" },
 };
 
 export const Numeric: Story = {

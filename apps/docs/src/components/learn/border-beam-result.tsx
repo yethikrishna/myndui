@@ -1,6 +1,6 @@
 "use client";
 
-import { BorderBeam } from "@godui/components";
+import { BorderBeam } from "@myndui/components";
 import { useBareScene } from "@/components/learn/bare-scene-context";
 
 /**

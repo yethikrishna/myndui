@@ -1,6 +1,6 @@
 "use client";
 
-import { TabBar, type TabBarTab } from "@godui/components";
+import { TabBar, type TabBarTab } from "@myndui/components";
 import { Bell, Home, Search, User } from "lucide-react";
 import { useState } from "react";
 

@@ -4,7 +4,7 @@ import { describe, expect, it } from "vitest";
 import { Terminal, type TerminalLine } from "./terminal";
 
 const LINES: TerminalLine[] = [
-  { text: "npm install @godui/components", type: "command" },
+  { text: "npm install @myndui/components", type: "command" },
   { text: "added 1 package", type: "output" },
 ];
 
@@ -20,7 +20,7 @@ describe("Terminal", () => {
       <Terminal lines={LINES} startOnView={false} />,
     );
     const sr = getRoot(container).querySelector(".sr-only");
-    expect(sr?.textContent).toContain("npm install @godui/components");
+    expect(sr?.textContent).toContain("npm install @myndui/components");
     expect(sr?.textContent).toContain("added 1 package");
   });
 

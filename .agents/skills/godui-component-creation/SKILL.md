@@ -1,11 +1,11 @@
 ---
-name: godui-component-creation
-description: Create new components for the GodUI design system in @godui/components. Use when adding a component, fixing missing Tailwind styles on components, wiring Storybook stories, or writing docs pages (main page + required Learn tab) with Workbench/Example and ComponentInstall.
+name: myndui-component-creation
+description: Create new components for the Myndui design system in @myndui/components. Use when adding a component, fixing missing Tailwind styles on components, wiring Storybook stories, or writing docs pages (main page + required Learn tab) with Workbench/Example and ComponentInstall.
 ---
 
-# GodUI Component Creation
+# Myndui Component Creation
 
-Follow this workflow when adding a component to `@godui/components`.
+Follow this workflow when adding a component to `@myndui/components`.
 
 ## Quick reference
 
@@ -15,10 +15,10 @@ Follow this workflow when adding a component to `@godui/components`.
 | Export | `packages/components/src/index.ts` |
 | Tailwind scan | `packages/components/styles.css` → `@source "./src"` |
 | Keyframes (dev) | `packages/components/styles.css` → `@keyframes` (+ `--animate-*` in `@theme`) |
-| Keyframes (dist) | the component's own `registry.json` entry → `cssVars.theme` (token) + `css` (`@keyframes`) — **not** the shared `godui-theme` |
+| Keyframes (dist) | the component's own `registry.json` entry → `cssVars.theme` (token) + `css` (`@keyframes`) — **not** the shared `myndui-theme` |
 | Storybook | `apps/storybook/src/stories/{name}.stories.tsx` |
 | Docs | `apps/docs/content/docs/components/{category}/{name}/index.mdx` |
-| Learn tab (required) | `apps/docs/content/docs/components/{category}/{name}/learn.mdx` + scenes in `apps/docs/src/components/learn/` — **use the `godui-learn-article` skill** |
+| Learn tab (required) | `apps/docs/content/docs/components/{category}/{name}/learn.mdx` + scenes in `apps/docs/src/components/learn/` — **use the `myndui-learn-article` skill** |
 | Index card | `apps/docs/content/docs/components/index.mdx` → `<PreviewCard>` |
 | Placeholder preview | `apps/docs/src/components/card-previews/previews/{name}.tsx` + slug in `registry.tsx` |
 | Nav | `apps/docs/content/docs/components/meta.json` |
@@ -79,10 +79,10 @@ Only add `"use client"` when the component uses React hooks or client-only APIs.
 
 Consuming apps also scan explicitly:
 
-- `apps/storybook/src/tailwind.css` → `@source "../node_modules/@godui/components/src"`
+- `apps/storybook/src/tailwind.css` → `@source "../node_modules/@myndui/components/src"`
 - `apps/docs/src/app/globals.css` → `@source "../../../../packages/components/src"`
 
-If utilities like `bg-primary` render unstyled, verify `@source "./src"` exists and restart the dev server. Both apps already depend on `@godui/components` via `workspace:*` and it is in the docs `transpilePackages` — no `pnpm install` needed for a new component in the shared package.
+If utilities like `bg-primary` render unstyled, verify `@source "./src"` exists and restart the dev server. Both apps already depend on `@myndui/components` via `workspace:*` and it is in the docs `transpilePackages` — no `pnpm install` needed for a new component in the shared package.
 
 ## 3. Styling approach — inline Tailwind only
 
@@ -95,19 +95,19 @@ Express CSS-heavy designs (3D buttons, sprite masks, gradients, state machines) 
 - **`has-[…]:`, `placeholder:`, `motion-reduce:`, `focus-within:`** — replace `:has()`, `::placeholder`, `prefers-reduced-motion`, `:focus-within`.
 - **Arbitrary properties** `[background:linear-gradient(...)]`, `[mask-image:var(--mask)]`, `[perspective:800px]`, `[transform:rotateX(35deg)]` — for `color-mix` gradients, sprite masks, 3D. Asset URLs: `import` the asset and pass it through an inline `style={{ "--mask": \`url(\${asset})\` }}` CSS var.
 - **Size scales** stay token-driven: `px-[var(--button-px-md)] text-[length:var(--button-text-md)]` (the `--button-*` tokens live in `@theme`). Map size → static utility strings in a `Record`.
-- **Animations** use `animate-<name>` utilities backed by a `--animate-*` token (never a `${var}` nested in an arbitrary value — the scanner can't resolve it). A component's `@keyframes` + token live in **two** spots: `styles.css` (`@keyframes` + `@theme`, so Storybook/docs render) **and** the component's own `registry.json` entry (`cssVars.theme` token + `css` `@keyframes`). Keep them out of the shared `godui-theme` entry so installing one component pulls only its own animations; shared keyframes repeat per entry (the CLI dedupes on install).
+- **Animations** use `animate-<name>` utilities backed by a `--animate-*` token (never a `${var}` nested in an arbitrary value — the scanner can't resolve it). A component's `@keyframes` + token live in **two** spots: `styles.css` (`@keyframes` + `@theme`, so Storybook/docs render) **and** the component's own `registry.json` entry (`cssVars.theme` token + `css` `@keyframes`). Keep them out of the shared `myndui-theme` entry so installing one component pulls only its own animations; shared keyframes repeat per entry (the CLI dedupes on install).
 - **Never `transition: all`** — specify exact properties (`transition-transform`, `[transition:filter_600ms]`).
 
 Only `@keyframes` and the `@theme` token layer belong in CSS. Everything visual is a utility class on the element.
 
 ## Motion — use the guideline tokens (required)
 
-All animation must speak the GodUI **motion language**. Do not invent new spring,
+All animation must speak the Myndui **motion language**. Do not invent new spring,
 duration, or easing numbers — pick from the documented presets so the new
 component feels like the rest of the library.
 
 **Source of truth:** `packages/components/src/motion/tokens.ts` (re-exported from
-`@godui/components` and from the docs). Copy-paste components are self-contained,
+`@myndui/components` and from the docs). Copy-paste components are self-contained,
 so **use these values _inline_** — don't import the module into a component.
 The docs/guidelines import it; components mirror the values. They must match.
 
@@ -141,7 +141,7 @@ recipes at [/docs/guidelines/patterns](/docs/guidelines/patterns)):
   - **Genuinely intrinsic?** shared-layout morph, `height:auto` collapse, SVG beam
     geometry — add an entry to `src/motion/motion-allowlist.ts` with a one-line
     reason. That list is an audit trail; a growing list is a smell. Check locally:
-    `pnpm --filter @godui/components test:motion`.
+    `pnpm --filter @myndui/components test:motion`.
 - **Always honor reduced motion.** Use `useReducedMotion()` and drop transforms
   (keep a subtle opacity change or go static); for CSS transitions add
   `motion-reduce:[transition:none]`. ~Every animated component does this already.
@@ -162,7 +162,7 @@ const reduce = useReducedMotion();
 ## 4. Storybook story
 
 ```typescript
-import { MyComponent, type MyComponentProps } from "@godui/components";
+import { MyComponent, type MyComponentProps } from "@myndui/components";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 
 const meta = {
@@ -200,7 +200,7 @@ date: "2026-07-10"
 workbench: true
 ---
 
-import { MyComponent } from "@godui/components";
+import { MyComponent } from "@myndui/components";
 import { MyComponentDemo } from "@/components/demos/my-component-demo";
 
 <Workbench>
@@ -210,7 +210,7 @@ One-sentence lead.
 <Example
   label="Default"
   story="category-mycomponent"
-  code={`import { MyComponent } from "@/components/godui/my-component";
+  code={`import { MyComponent } from "@/components/myndui/my-component";
 
 export function MyComponentDemo() {
   return <MyComponent variant="primary">Example</MyComponent>;
@@ -226,7 +226,7 @@ export function MyComponentDemo() {
 
 ## Usage
 \`\`\`tsx
-import { MyComponent } from "@/components/godui/my-component";
+import { MyComponent } from "@/components/myndui/my-component";
 \`\`\`
 
 ## Props
@@ -302,12 +302,12 @@ shows in `docs:dev`. Same trap applies to any block tag with multi-line bare tex
 
 **Parameterized installs (e.g. a background variant baked into the file).** A component
 whose install should bake a choice is served by the dynamic route
-`apps/docs/src/app/r/[item]/route.ts` (wrapping `@godui/components/registry`) via a
+`apps/docs/src/app/r/[item]/route.ts` (wrapping `@myndui/components/registry`) via a
 `?variant=` query param — **not** by `shadcn build`. Such items are removed from
 `registry.json` so the route owns `/r/{name}.json`, the generated component carries its
 overridable defaults inside `// @default-props:start/end` markers (the route swaps that
 block), and the install command is the full-URL form
-`shadcn add "https://godui.design/r/{name}.json?variant=…"`. The interactive picker lives in
+`shadcn add "https://myndui.design/r/{name}.json?variant=…"`. The interactive picker lives in
 `apps/docs/src/components/background-showcase.tsx`.
 
 **Nav is driven by one root file: `apps/docs/content/docs/meta.json`** (not a per-folder
@@ -317,7 +317,7 @@ file simply won't appear in the sidebar). Slugs are the full path from `docs/`, 
 
 ```json
 {
-  "title": "GodUI",
+  "title": "Myndui",
   "pages": [
     "---Buttons---",
     "components/buttons/magic-button",
@@ -346,7 +346,7 @@ Every component ships a **Learn tab** — a scroll-triggered, animated deep-dive
 beside the main page as `apps/docs/content/docs/components/{category}/{name}/learn.mdx`
 (same folder as `index.mdx`, which is why the page is a folder, not a flat `.mdx`).
 
-**Invoke the `godui-learn-article` skill to build it** — it owns the routing, the tab
+**Invoke the `myndui-learn-article` skill to build it** — it owns the routing, the tab
 wiring, the `ScrollScene` primitive, scene patterns, and the gotchas. Don't hand-roll it.
 
 The article ends with a **Motion Score** section (a `## Motion Score` heading +
@@ -423,7 +423,7 @@ slug.
 - **NEVER** use arbitrary z-index — use the scale: `z-base`, `z-raised`, `z-overlay`, `z-sticky`, `z-popover`, `z-modal`, `z-toast`.
 - **NEVER** put bare text on its own line inside a block tag in `Example` children — MDX wraps it in a `<p>`, causing `<p>`-in-`<p>` hydration errors. Keep text inline (see §5).
 - **NEVER** rely on folder auto-nav for docs — register the page in the root `apps/docs/content/docs/meta.json` (slug `components/{category}/{name}`) and add a `<PreviewCard>` in `components/index.mdx`, or it won't appear (see §5).
-- **NEVER** ship a component without a Learn tab — every component needs `{name}/learn.mdx`, built via the `godui-learn-article` skill (see §5.5).
+- **NEVER** ship a component without a Learn tab — every component needs `{name}/learn.mdx`, built via the `myndui-learn-article` skill (see §5.5).
 - **NEVER** use fixed-luminance colors (`bg-black/*`, `bg-white/*`, `border-white/*`, `text-white`, hex) in a Learn scene — they only contrast in one theme. Use theme tokens and verify light **and** dark (see §5.5).
 - **NEVER** ship a `<PreviewCard>` without its placeholder preview — create `card-previews/previews/{name}.tsx` (filename = href slug) and add the slug to `CURATED_SLUGS`, or the card renders text-only and breaks the uniform grid (see §6).
 - **NEVER** give a demo (or the component itself) a fixed width wider than the mobile preview — the Workbench stage has a mobile toggle that renders the demo in a **360px** iframe, so a hard `w-[26rem]`/`w-96`/`min-w-[...]` overflows and clips. Use fluid widths: `w-full max-w-[26rem]` (shrinks on mobile, still 26rem on desktop). Gate any extra edge padding/margin to mobile with `max-sm:` so **desktop stays unchanged** — never add flat `px-4`/`mx-4` that also alters desktop (see §5).
@@ -447,7 +447,7 @@ slug.
 - [ ] Motion uses the guideline tokens (DURATION/EASE/SPRING/STAGGER/ENTER/EXIT) inline — no invented numbers; transform/opacity only; reduced-motion handled (see "Motion")
 - [ ] Storybook story with `tags: ["autodocs"]`
 - [ ] Docs MDX under `components/{category}/{name}/index.mdx` with Workbench + Example + ComponentInstall
-- [ ] Learn tab `components/{category}/{name}/learn.mdx` built via the `godui-learn-article` skill — scenes use the black/white pattern and are verified in **both** light and dark theme (see §5.5)
+- [ ] Learn tab `components/{category}/{name}/learn.mdx` built via the `myndui-learn-article` skill — scenes use the black/white pattern and are verified in **both** light and dark theme (see §5.5)
 - [ ] Motion Score section in the Learn article (`## Motion Score` + `<MotionScorePanel name="{name}" />` before The result, plus a `MOTION_SCORE_PANELS` registry entry) — grade matches the docs Motion badge; **skip for static (`STATIC_COMPONENTS`) components** (see learn skill §6.5)
 - [ ] `date: YYYY-MM-DD` (today) in the MDX frontmatter — required; drives the "New" sidebar badge for one month
 - [ ] Example children: text inline in its tag (no `<p>`-in-`<p>` — see §5)

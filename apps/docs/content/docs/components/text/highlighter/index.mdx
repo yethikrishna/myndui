@@ -4,7 +4,7 @@ description: Draw hand-drawn sketch annotations over inline text — highlight, 
 workbench: true
 ---
 
-import { Highlighter } from "@godui/components";
+import { Highlighter } from "@myndui/components";
 
 <Workbench>
 
@@ -14,7 +14,7 @@ Draw hand-drawn sketch annotations over inline text, powered by
 <Example
   label="Default"
   story="text-highlighter"
-  code={`import { Highlighter } from "@/components/godui/highlighter";
+  code={`import { Highlighter } from "@/components/myndui/highlighter";
 
 export function HighlighterDemo() {
   return (
@@ -55,7 +55,7 @@ npm install rough-notation framer-motion
 ## Usage
 
 ```tsx
-import { Highlighter } from "@/components/godui/highlighter";
+import { Highlighter } from "@/components/myndui/highlighter";
 ```
 
 Wrap any inline text. The annotation is drawn over the element on mount.
@@ -115,7 +115,7 @@ Drop it around any inline word — the sketch draws over the text in place.
 
 <Example
   label="In a Sentence"
-  code={`import { Highlighter } from "@/components/godui/highlighter";
+  code={`import { Highlighter } from "@/components/myndui/highlighter";
 
 export function HighlighterSentence() {
   return (
@@ -135,7 +135,7 @@ Push `strokeWidth`, `iterations`, `padding`, and `animationDuration` for a bolde
 
 <Example
   label="Tuning the Sketch"
-  code={`import { Highlighter } from "@/components/godui/highlighter";
+  code={`import { Highlighter } from "@/components/myndui/highlighter";
 
 export function HighlighterTuned() {
   return (

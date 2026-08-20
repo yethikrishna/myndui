@@ -1,6 +1,6 @@
 "use client";
 
-import { ProgressiveCardReveal } from "@godui/components";
+import { ProgressiveCardReveal } from "@myndui/components";
 import * as React from "react";
 
 type Leg = {

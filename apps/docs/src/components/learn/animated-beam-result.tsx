@@ -1,6 +1,6 @@
 "use client";
 
-import { AnimatedBeam } from "@godui/components";
+import { AnimatedBeam } from "@myndui/components";
 import { Box, Cloud, Database, Sparkles } from "lucide-react";
 import * as React from "react";
 import { useBareScene } from "@/components/learn/bare-scene-context";

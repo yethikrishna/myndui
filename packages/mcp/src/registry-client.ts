@@ -1,12 +1,12 @@
-// Thin HTTP client over the GodUI shadcn registry. Holds no bundled component
+// Thin HTTP client over the Myndui shadcn registry. Holds no bundled component
 // data — it fetches the live catalog so even an old pinned MCP version serves
 // the newest components after each site deploy. Results are cached per process.
 
-const DEFAULT_BASE_URL = "https://godui.design/r";
+const DEFAULT_BASE_URL = "https://myndui.design/r";
 
 /** Base registry URL, overridable for local testing (e.g. http://localhost:3000/r). */
 export const registryBaseUrl = (
-  process.env.GODUI_REGISTRY_URL ?? DEFAULT_BASE_URL
+  process.env.MYNDUI_REGISTRY_URL ?? DEFAULT_BASE_URL
 ).replace(/\/$/, "");
 
 export type CatalogComponent = {
@@ -56,12 +56,12 @@ async function fetchJson<T>(url: string): Promise<T> {
     res = await fetch(url, { headers: { accept: "application/json" } });
   } catch (cause) {
     throw new Error(
-      `Failed to reach GodUI registry at ${url}: ${String(cause)}`,
+      `Failed to reach Myndui registry at ${url}: ${String(cause)}`,
     );
   }
   if (!res.ok) {
     throw new Error(
-      `GodUI registry request failed (${res.status} ${res.statusText}): ${url}`,
+      `Myndui registry request failed (${res.status} ${res.statusText}): ${url}`,
     );
   }
   return (await res.json()) as T;
@@ -86,7 +86,7 @@ export function createRegistryClient(
       return indexCache;
     },
     getComponent(name, variant) {
-      const slug = name.trim().replace(/^@godui\//, "");
+      const slug = name.trim().replace(/^@myndui\//, "");
       const query = variant ? `?variant=${encodeURIComponent(variant)}` : "";
       const key = `${slug}${query}`;
       let pending = componentCache.get(key);

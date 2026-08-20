@@ -1,6 +1,6 @@
 "use client";
 
-import { Drawer } from "@godui/components";
+import { Drawer } from "@myndui/components";
 import { Link2, ShoppingBag } from "lucide-react";
 import { useState } from "react";
 import { useBareScene } from "@/components/learn/bare-scene-context";
@@ -78,7 +78,7 @@ export function DrawerResult() {
               strokeWidth={2}
             />
             <span className="flex-1 truncate text-sm text-muted-foreground">
-              godui.design/p/aurora-x82k
+              myndui.design/p/aurora-x82k
             </span>
             <button
               type="button"
@@ -140,7 +140,7 @@ export function DrawerResult() {
             strokeWidth={2}
           />
           <span className="flex-1 truncate text-sm text-muted-foreground">
-            godui.design/p/aurora-x82k
+            myndui.design/p/aurora-x82k
           </span>
           <button
             type="button"

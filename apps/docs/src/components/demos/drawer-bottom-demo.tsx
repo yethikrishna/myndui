@@ -1,6 +1,6 @@
 "use client";
 
-import { Drawer } from "@godui/components";
+import { Drawer } from "@myndui/components";
 import { Check, Copy, Link2, Mail, MessageSquare, Send } from "lucide-react";
 import { type ComponentType, useState } from "react";
 
@@ -53,7 +53,7 @@ export function DrawerBottomDemo() {
             strokeWidth={2}
           />
           <span className="flex-1 truncate text-sm text-muted-foreground">
-            godui.design/p/aurora-x82k
+            myndui.design/p/aurora-x82k
           </span>
           <button
             type="button"

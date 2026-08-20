@@ -13,7 +13,7 @@ const NEW_WINDOW_MS = 30 * 24 * 60 * 60 * 1000;
  */
 function newBadgePlugin(): LoaderPlugin {
   return {
-    name: "godui:new-badge",
+    name: "myndui:new-badge",
     transformPageTree: {
       file(node, filePath) {
         if (!filePath || !("name" in node)) return node;
@@ -68,7 +68,7 @@ function hideLearnPagesPlugin(): LoaderPlugin {
   };
 
   return {
-    name: "godui:hide-learn-pages",
+    name: "myndui:hide-learn-pages",
     transformPageTree: {
       root(tree) {
         return { ...tree, children: prune(tree.children) };

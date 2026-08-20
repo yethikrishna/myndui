@@ -1,6 +1,6 @@
 "use client";
 
-import { LiquidGlassCard } from "@godui/components";
+import { LiquidGlassCard } from "@myndui/components";
 import { useBareScene } from "@/components/learn/bare-scene-context";
 
 /**

@@ -4,7 +4,7 @@ import {
   MOTION_TIER_META,
   type MotionGrade,
   propTier,
-} from "@godui/components";
+} from "@myndui/components";
 import type { ReactNode } from "react";
 import { motionScore } from "@/lib/motion-score";
 import {

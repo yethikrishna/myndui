@@ -1,6 +1,6 @@
 "use client";
 
-import { FluidCursor } from "@godui/components";
+import { FluidCursor } from "@myndui/components";
 import * as React from "react";
 
 export function FluidCursorDemo() {

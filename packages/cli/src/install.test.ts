@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
-  GODUI_SERVER,
-  GODUI_SERVER_KEY,
+  MYNDUI_SERVER,
+  MYNDUI_SERVER_KEY,
   getConfigPath,
   mergeMcpConfig,
   normalizeClient,
@@ -64,9 +64,9 @@ describe("getConfigPath", () => {
 });
 
 describe("mergeMcpConfig", () => {
-  it("adds the godui server to an empty config", () => {
+  it("adds the myndui server to an empty config", () => {
     const out = mergeMcpConfig(null);
-    expect(out.mcpServers?.[GODUI_SERVER_KEY]).toEqual(GODUI_SERVER);
+    expect(out.mcpServers?.[MYNDUI_SERVER_KEY]).toEqual(MYNDUI_SERVER);
   });
 
   it("preserves existing servers and unrelated keys", () => {
@@ -76,13 +76,13 @@ describe("mergeMcpConfig", () => {
     });
     expect(out.schema).toBe(1);
     expect(out.mcpServers?.other).toEqual({ command: "x", args: [] });
-    expect(out.mcpServers?.[GODUI_SERVER_KEY]).toEqual(GODUI_SERVER);
+    expect(out.mcpServers?.[MYNDUI_SERVER_KEY]).toEqual(MYNDUI_SERVER);
   });
 
-  it("overwrites a stale godui entry", () => {
+  it("overwrites a stale myndui entry", () => {
     const out = mergeMcpConfig({
-      mcpServers: { godui: { command: "old", args: ["old"] } },
+      mcpServers: { myndui: { command: "old", args: ["old"] } },
     });
-    expect(out.mcpServers?.[GODUI_SERVER_KEY]).toEqual(GODUI_SERVER);
+    expect(out.mcpServers?.[MYNDUI_SERVER_KEY]).toEqual(MYNDUI_SERVER);
   });
 });

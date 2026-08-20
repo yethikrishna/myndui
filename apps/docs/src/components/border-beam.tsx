@@ -64,7 +64,7 @@ export function BorderBeam({ play, radius = 16 }: BorderBeamProps) {
             stroke="currentColor"
             strokeWidth={2}
             strokeLinecap="round"
-            className="[animation:godui-replay-beam_500ms_cubic-bezier(0.4,0,0.2,1)_both] [stroke-dasharray:22_100]"
+            className="[animation:myndui-replay-beam_500ms_cubic-bezier(0.4,0,0.2,1)_both] [stroke-dasharray:22_100]"
           />
           <path
             d={topLeft}
@@ -72,7 +72,7 @@ export function BorderBeam({ play, radius = 16 }: BorderBeamProps) {
             stroke="currentColor"
             strokeWidth={2}
             strokeLinecap="round"
-            className="[animation:godui-replay-beam_500ms_cubic-bezier(0.4,0,0.2,1)_both] [stroke-dasharray:22_100]"
+            className="[animation:myndui-replay-beam_500ms_cubic-bezier(0.4,0,0.2,1)_both] [stroke-dasharray:22_100]"
           />
         </>
       ) : null}

@@ -4,7 +4,7 @@ description: Pinned cards that scale, recede, and stack as the page scrolls — 
 workbench: true
 ---
 
-import { ScrollStack } from "@godui/components";
+import { ScrollStack } from "@myndui/components";
 import { ScrollStackDemo } from "@/components/demos/scroll-stack-demo";
 
 <Workbench>
@@ -14,7 +14,7 @@ Each card pins to the top of the scroller while the next one rises over it. As a
 <Example
   label="Default"
   story="layout-scrollstack"
-  code={`import { ScrollStack } from "@/components/godui/scroll-stack";
+  code={`import { ScrollStack } from "@/components/myndui/scroll-stack";
 
 const cards = [
   { eyebrow: "01 — Capture", title: "Everything in one place", body: "Pin ideas, tasks, and docs to a single surface that scrolls with you." },
@@ -50,7 +50,7 @@ brightness, and blur are interpolated from how far each card has been buried.
 ## Usage
 
 ```tsx
-import { ScrollStack } from "@/components/godui/scroll-stack";
+import { ScrollStack } from "@/components/myndui/scroll-stack";
 ```
 
 By default the stack tracks the **page** scroll — the right choice for a full

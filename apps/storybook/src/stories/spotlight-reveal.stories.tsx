@@ -1,4 +1,4 @@
-import { SpotlightReveal, type SpotlightRevealProps } from "@godui/components";
+import { SpotlightReveal, type SpotlightRevealProps } from "@myndui/components";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { range } from "../playground/argtypes";
 
@@ -19,7 +19,7 @@ const meta = {
     reveal: (
       <div className="grid size-full place-items-center bg-foreground">
         <span className="font-mono text-xl font-semibold tracking-[0.2em] text-background">
-          GODUI-2026
+          MYNDUI-2026
         </span>
       </div>
     ),

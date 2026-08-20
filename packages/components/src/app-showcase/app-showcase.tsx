@@ -41,7 +41,7 @@ export type AppShowcaseProps = Omit<
   alt?: string;
 };
 
-// SPRING.smooth — surfaces / shared-layout feel (matches the rest of GodUI).
+// SPRING.smooth — surfaces / shared-layout feel (matches the rest of Myndui).
 const SPRING = { stiffness: 320, damping: 32, mass: 0.9 } as const;
 
 // Device geometry as ratios of the frame width, so the phone looks identical at

@@ -1,9 +1,9 @@
 {
-  "name": "@godui/mcp",
+  "name": "@myndui/mcp",
   "version": "0.1.0",
-  "description": "Model Context Protocol server for GodUI — let your AI IDE discover and install GodUI components by description.",
+  "description": "Model Context Protocol server for Myndui — let your AI IDE discover and install Myndui components by description.",
   "keywords": [
-    "godui",
+    "myndui",
     "mcp",
     "model-context-protocol",
     "shadcn",
@@ -11,16 +11,16 @@
     "components",
     "ai"
   ],
-  "homepage": "https://godui.design",
+  "homepage": "https://myndui.design",
   "repository": {
     "type": "git",
-    "url": "https://github.com/godui-design/godui.git",
+    "url": "https://github.com/myndui-design/myndui.git",
     "directory": "packages/mcp"
   },
   "license": "MIT",
   "type": "module",
   "bin": {
-    "godui-mcp": "dist/index.js"
+    "myndui-mcp": "dist/index.js"
   },
   "files": [
     "dist"

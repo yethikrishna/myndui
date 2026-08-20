@@ -1,4 +1,4 @@
-import { TextAnimate } from "@godui/components";
+import { TextAnimate } from "@myndui/components";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { hidden, range, select, text, toggle } from "../playground/argtypes";
 import { centered } from "../playground/stage";

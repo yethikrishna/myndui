@@ -66,11 +66,11 @@ describe("StoreBadge", () => {
 
 describe("QrCode", () => {
   it("renders an accessible QR svg for the value", () => {
-    const { getByRole } = render(<QrCode value="https://godui.design" />);
+    const { getByRole } = render(<QrCode value="https://myndui.design" />);
     const svg = getByRole("img");
     expect(svg).toHaveAttribute(
       "aria-label",
-      "QR code for https://godui.design",
+      "QR code for https://myndui.design",
     );
     expect(svg.querySelector("path")?.getAttribute("d")).toBeTruthy();
   });

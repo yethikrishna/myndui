@@ -4,7 +4,7 @@ description: A depth starfield you fly through — cursor parallax and an option
 workbench: true
 ---
 
-import { WarpStarfield } from "@godui/components";
+import { WarpStarfield } from "@myndui/components";
 
 <Workbench>
 
@@ -16,7 +16,7 @@ into streaks. Drop it as the first child of a `relative` container.
   label="Default"
   fullWidth
   story="backgrounds-warp-starfield"
-  code={`import { WarpStarfield } from "@/components/godui/warp-starfield";
+  code={`import { WarpStarfield } from "@/components/myndui/warp-starfield";
 
 export function WarpStarfieldDemo() {
   return (
@@ -46,7 +46,7 @@ export function WarpStarfieldDemo() {
 ## Usage
 
 ```tsx
-import { WarpStarfield } from "@/components/godui/warp-starfield";
+import { WarpStarfield } from "@/components/myndui/warp-starfield";
 
 <div className="relative overflow-hidden">
   <WarpStarfield />
@@ -66,7 +66,7 @@ tabs, and renders a static frame under `prefers-reduced-motion`.
 <Example
   label="Hyperspace"
   fullWidth
-  code={`import { WarpStarfield } from "@/components/godui/warp-starfield";
+  code={`import { WarpStarfield } from "@/components/myndui/warp-starfield";
 
 export function WarpStarfieldHyperspace() {
   return (

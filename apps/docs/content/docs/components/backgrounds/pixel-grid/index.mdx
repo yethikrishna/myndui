@@ -4,7 +4,7 @@ description: A grid of squares that flicker their opacity — as an automatic an
 workbench: true
 ---
 
-import { PixelGrid } from "@godui/components";
+import { PixelGrid } from "@myndui/components";
 
 <Workbench>
 
@@ -21,7 +21,7 @@ change, so it tracks light and dark automatically.
   label="Default"
   fullWidth
   story="backgrounds-pixel-grid"
-  code={`import { PixelGrid } from "@/components/godui/pixel-grid";
+  code={`import { PixelGrid } from "@/components/myndui/pixel-grid";
 
 export function PixelGridDemo() {
   return (
@@ -43,7 +43,7 @@ export function PixelGridDemo() {
 ## Usage
 
 ```tsx
-import { PixelGrid } from "@/components/godui/pixel-grid";
+import { PixelGrid } from "@/components/myndui/pixel-grid";
 ```
 
 `PixelGrid` is absolutely positioned and fills its nearest positioned ancestor,
@@ -66,7 +66,7 @@ spotlight that follows the pointer.
 <Example
   label="Cursor"
   fullWidth
-  code={`import { PixelGrid } from "@/components/godui/pixel-grid";
+  code={`import { PixelGrid } from "@/components/myndui/pixel-grid";
 
 export function PixelGridCursor() {
   return (
@@ -91,7 +91,7 @@ opacity, so the cursor lights up an already-present grid.
 <Example
   label="Dim Reveal"
   fullWidth
-  code={`import { PixelGrid } from "@/components/godui/pixel-grid";
+  code={`import { PixelGrid } from "@/components/myndui/pixel-grid";
 
 export function PixelGridCursorDim() {
   return (
@@ -115,7 +115,7 @@ Pass any CSS color string to `color` to override the theme token.
 <Example
   label="Color"
   fullWidth
-  code={`import { PixelGrid } from "@/components/godui/pixel-grid";
+  code={`import { PixelGrid } from "@/components/myndui/pixel-grid";
 
 export function PixelGridColored() {
   return (
@@ -137,7 +137,7 @@ Smaller `squareSize` and `gridGap` pack the field tighter.
 <Example
   label="Dense"
   fullWidth
-  code={`import { PixelGrid } from "@/components/godui/pixel-grid";
+  code={`import { PixelGrid } from "@/components/myndui/pixel-grid";
 
 export function PixelGridDense() {
   return (

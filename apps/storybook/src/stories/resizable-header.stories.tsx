@@ -1,4 +1,4 @@
-import { ResizableHeader } from "@godui/components";
+import { ResizableHeader } from "@myndui/components";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { fn } from "storybook/test";
 import { action, hidden, range, toggle } from "../playground/argtypes";

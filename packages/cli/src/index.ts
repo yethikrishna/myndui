@@ -9,19 +9,19 @@ import {
   SUPPORTED_CLIENTS,
 } from "./install.js";
 
-const HELP = `godui — install the GodUI MCP server into your AI IDE
+const HELP = `myndui — install the Myndui MCP server into your AI IDE
 
 Usage:
-  godui install <client>
+  myndui install <client>
 
 Clients:
   ${SUPPORTED_CLIENTS.join(", ")}
 
 Examples:
-  npx @godui/cli@latest install cursor
-  pnpm dlx @godui/cli@latest install claude
+  npx @myndui/cli@latest install cursor
+  pnpm dlx @myndui/cli@latest install claude
 
-After running, restart your IDE. Then ask it for any GodUI component.`;
+After running, restart your IDE. Then ask it for any Myndui component.`;
 
 function currentEnv(): PlatformEnv {
   return {
@@ -50,7 +50,7 @@ function run(argv: string[]) {
   }
 
   if (command !== "install") {
-    fail(`Unknown command "${command}". Run "godui --help".`);
+    fail(`Unknown command "${command}". Run "myndui --help".`);
   }
 
   if (!clientArg) {
@@ -88,10 +88,10 @@ function run(argv: string[]) {
     fail(`Couldn't write ${configPath}: ${String(error)}`);
   }
 
-  console.log(`✔ Added the GodUI MCP server to ${client}.`);
+  console.log(`✔ Added the Myndui MCP server to ${client}.`);
   console.log(`  ${configPath}`);
   console.log("");
-  console.log("Restart your IDE, then ask it to add any GodUI component.");
+  console.log("Restart your IDE, then ask it to add any Myndui component.");
 }
 
 run(process.argv.slice(2));

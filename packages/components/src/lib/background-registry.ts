@@ -103,12 +103,12 @@ export function buildBackgroundRegistryItem(
     name,
     type: "registry:ui",
     title: entry.title,
-    registryDependencies: ["@godui/godui-theme"],
+    registryDependencies: ["@myndui/myndui-theme"],
     files: [
       {
         path: `packages/components/src/${name}/${name}.tsx`,
         type: "registry:ui",
-        target: `components/godui/${name}.tsx`,
+        target: `components/myndui/${name}.tsx`,
         content,
       },
     ],

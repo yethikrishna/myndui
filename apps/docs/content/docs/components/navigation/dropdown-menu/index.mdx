@@ -14,7 +14,7 @@ An accessible dropdown that springs open from its trigger edge, with submenus, i
   label="Default"
   story="navigation-dropdown-menu"
   code={`"use client";
-import { DropdownMenu } from "@/components/godui/dropdown-menu";
+import { DropdownMenu } from "@/components/myndui/dropdown-menu";
 import { User, CreditCard, Users, Plus, LogOut } from "lucide-react";
 import { useState } from "react";
 
@@ -51,13 +51,13 @@ export function AccountMenu() {
 ## Usage
 
 ```tsx
-import { DropdownMenu } from "@/components/godui/dropdown-menu";
+import { DropdownMenu } from "@/components/myndui/dropdown-menu";
 ```
 
 ```tsx
 const items = [
   { label: "Profile", onSelect: () => {} },
-  { label: "Workspaces", submenu: [{ label: "GodUI", onSelect: () => {} }] },
+  { label: "Workspaces", submenu: [{ label: "Myndui", onSelect: () => {} }] },
   { type: "separator" },
   { label: "Log out", onSelect: () => {} },
 ];

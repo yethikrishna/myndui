@@ -1,6 +1,6 @@
 "use client";
 
-import { SpotlightCard } from "@godui/components";
+import { SpotlightCard } from "@myndui/components";
 import { useBareScene } from "@/components/learn/bare-scene-context";
 
 /**

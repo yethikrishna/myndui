@@ -1,6 +1,6 @@
 "use client";
 
-import { SpotlightReveal } from "@godui/components";
+import { SpotlightReveal } from "@myndui/components";
 
 export function SpotlightRevealDemo() {
   return (
@@ -14,7 +14,7 @@ export function SpotlightRevealDemo() {
               Your invite code
             </p>
             <p className="mt-3 font-mono text-3xl font-semibold tracking-[0.2em] text-background">
-              GODUI-2026
+              MYNDUI-2026
             </p>
           </div>
         </div>

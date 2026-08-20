@@ -1,6 +1,6 @@
 "use client";
 
-import { GooeyStack } from "@godui/components";
+import { GooeyStack } from "@myndui/components";
 import * as React from "react";
 import { useBareScene } from "@/components/learn/bare-scene-context";
 

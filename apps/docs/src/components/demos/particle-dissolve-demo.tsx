@@ -1,12 +1,12 @@
 "use client";
 
-import { ParticleDissolve } from "@godui/components";
+import { ParticleDissolve } from "@myndui/components";
 
 export function ParticleDissolveDemo() {
   return (
     <div className="grid w-full place-items-center py-6">
       <ParticleDissolve
-        text="GodUI"
+        text="Myndui"
         mode="loop"
         trigger="in-view"
         width={620}

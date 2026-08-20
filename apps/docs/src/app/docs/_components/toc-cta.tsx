@@ -1,14 +1,14 @@
-const REPO = "https://github.com/LucasBassetti/godui";
+const REPO = "https://github.com/YethikrishnaR/myndui";
 
 /**
- * "Built with GodUI" card shown under the table of contents (and inside the
+ * "Built with Myndui" card shown under the table of contents (and inside the
  * mobile TOC popover). Wired via DocsPage `tableOfContent.footer`.
  */
 export function TocCta() {
   return (
     <div className="toc-cta mt-6 mb-4 rounded-2xl border border-fd-border p-4">
       <p className="font-semibold text-[13.5px] text-fd-foreground">
-        Built with GodUI
+        Built with Myndui
       </p>
       <p className="mt-1 text-[12.5px] text-fd-muted-foreground leading-relaxed">
         Beautifully crafted motion components for modern interfaces.

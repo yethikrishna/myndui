@@ -26,13 +26,13 @@ export async function listComponents(
       const categories = [...new Set(index.components.map((c) => c.category))]
         .sort()
         .join(", ");
-      return `No GodUI components found in category "${category}". Available categories: ${categories}.`;
+      return `No Myndui components found in category "${category}". Available categories: ${categories}.`;
     }
   }
 
   const header = category
-    ? `GodUI components in "${category}" (${components.length}):`
-    : `GodUI components (${components.length}). Install any with: npx shadcn@latest add @godui/<name>`;
+    ? `Myndui components in "${category}" (${components.length}):`
+    : `Myndui components (${components.length}). Install any with: npx shadcn@latest add @myndui/<name>`;
 
   return `${header}\n${components.map(formatCatalogLine).join("\n")}`;
 }
@@ -73,10 +73,10 @@ export async function searchComponents(
     .slice(0, 10);
 
   if (ranked.length === 0) {
-    return `No GodUI components matched "${query}". Use list_components to browse the full catalog.`;
+    return `No Myndui components matched "${query}". Use list_components to browse the full catalog.`;
   }
 
-  return `GodUI components matching "${query}":\n${ranked
+  return `Myndui components matching "${query}":\n${ranked
     .map((r) => formatCatalogLine(r.c))
     .join(
       "\n",
@@ -94,19 +94,19 @@ export async function getComponent(
   name: string,
   variant?: string,
 ): Promise<string> {
-  const slug = name.trim().replace(/^@godui\//, "");
+  const slug = name.trim().replace(/^@myndui\//, "");
   let item: RegistryItem;
   try {
     item = await client.getComponent(slug, variant);
   } catch (error) {
-    return `Could not load GodUI component "${slug}": ${
+    return `Could not load Myndui component "${slug}": ${
       error instanceof Error ? error.message : String(error)
     }\nUse list_components or search_components to find a valid name.`;
   }
 
   const installTarget = variant
-    ? `"https://godui.design/r/${slug}.json?variant=${variant}"`
-    : `@godui/${slug}`;
+    ? `"https://myndui.design/r/${slug}.json?variant=${variant}"`
+    : `@myndui/${slug}`;
 
   const parts: string[] = [
     `# ${item.title ?? slug}`,
@@ -119,7 +119,7 @@ export async function getComponent(
     `npx shadcn@latest add ${installTarget}`,
     "```",
     "",
-    "This copies the source into `components/godui/` and merges GodUI theme tokens + styles into your global stylesheet automatically.",
+    "This copies the source into `components/myndui/` and merges Myndui theme tokens + styles into your global stylesheet automatically.",
   ];
 
   if (item.dependencies?.length) {

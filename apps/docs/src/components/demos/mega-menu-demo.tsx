@@ -1,6 +1,6 @@
 "use client";
 
-import { MegaMenu } from "@godui/components";
+import { MegaMenu } from "@myndui/components";
 import {
   BarChart3,
   BookOpen,

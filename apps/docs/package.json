@@ -11,7 +11,7 @@
     "postinstall": "fumadocs-mdx"
   },
   "dependencies": {
-    "@godui/components": "workspace:*",
+    "@myndui/components": "workspace:*",
     "@next/third-parties": "^16.2.9",
     "aeo.js": "^0.0.14",
     "framer-motion": "^12.40.0",

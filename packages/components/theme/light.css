@@ -46,7 +46,7 @@
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
 
-  /* Typography — set --font-geist-* in your app (see @godui/components/fonts) */
+  /* Typography — set --font-geist-* in your app (see @myndui/components/fonts) */
   --font-sans: var(
     --font-geist-sans,
     "Geist",

@@ -1,6 +1,6 @@
 "use client";
 
-import { StoreBadge, StoreBadgeGroup } from "@godui/components";
+import { StoreBadge, StoreBadgeGroup } from "@myndui/components";
 import { useBareScene } from "@/components/learn/bare-scene-context";
 
 /**

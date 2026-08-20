@@ -4,7 +4,7 @@ description: A segmented one-time-code input with auto-advance, paste-to-fill, a
 workbench: true
 ---
 
-import { OTPInput } from "@godui/components";
+import { OTPInput } from "@myndui/components";
 
 <Workbench>
 
@@ -13,7 +13,7 @@ A segmented one-time-code input with auto-advance, paste-to-fill, a traveling ca
 <Example
   label="Default"
   story="inputs-otp-input"
-  code={`import { OTPInput } from "@/components/godui/otp-input";
+  code={`import { OTPInput } from "@/components/myndui/otp-input";
 
 export function OTPInputDemo() {
   return <OTPInput length={6} onComplete={(code) => console.log(code)} />;
@@ -24,7 +24,7 @@ export function OTPInputDemo() {
 
 <Example
   label="Masked"
-  code={`import { OTPInput } from "@/components/godui/otp-input";
+  code={`import { OTPInput } from "@/components/myndui/otp-input";
 
 export function OTPInputMasked() {
   return <OTPInput length={6} mask />;
@@ -35,7 +35,7 @@ export function OTPInputMasked() {
 
 <Example
   label="Validation status"
-  code={`import { OTPInput } from "@/components/godui/otp-input";
+  code={`import { OTPInput } from "@/components/myndui/otp-input";
 
 export function OTPInputStatus() {
   return (
@@ -68,7 +68,7 @@ Set `mask` to render entered characters as dots — useful for sensitive codes.
 ## Usage
 
 ```tsx
-import { OTPInput } from "@godui/components";
+import { OTPInput } from "@myndui/components";
 
 <OTPInput length={6} onComplete={(code) => verify(code)} />;
 ```

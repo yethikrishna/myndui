@@ -1,6 +1,6 @@
 "use client";
 
-import { WorldMap } from "@godui/components";
+import { WorldMap } from "@myndui/components";
 
 export function WorldMapDemo() {
   return (

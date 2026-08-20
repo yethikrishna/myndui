@@ -1,6 +1,6 @@
 "use client";
 
-import { ConfettiButton } from "@godui/components";
+import { ConfettiButton } from "@myndui/components";
 import { Check } from "lucide-react";
 
 export function ConfettiDemo() {

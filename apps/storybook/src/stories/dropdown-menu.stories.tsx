@@ -1,4 +1,4 @@
-import { DropdownMenu, type DropdownMenuItem } from "@godui/components";
+import { DropdownMenu, type DropdownMenuItem } from "@myndui/components";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { hidden, select } from "../playground/argtypes";
 
@@ -9,7 +9,7 @@ const items: DropdownMenuItem[] = [
   {
     label: "Workspaces",
     submenu: [
-      { label: "GodUI", onSelect: () => {} },
+      { label: "Myndui", onSelect: () => {} },
       { label: "Acme", onSelect: () => {} },
       { type: "separator" },
       { label: "New workspace", onSelect: () => {} },

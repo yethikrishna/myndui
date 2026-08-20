@@ -1,10 +1,10 @@
 ---
 title: MCP Server
-description: Use GodUI from your AI IDE — discover and install components by description.
+description: Use Myndui from your AI IDE — discover and install components by description.
 ---
 
-GodUI ships an [MCP](https://modelcontextprotocol.io) server so AI coding agents
-(Cursor, Windsurf, Claude, Cline, Roo-Cline, …) can browse the GodUI catalog and
+Myndui ships an [MCP](https://modelcontextprotocol.io) server so AI coding agents
+(Cursor, Windsurf, Claude, Cline, Roo-Cline, …) can browse the Myndui catalog and
 install components straight into your project. Add it once, then just ask for the
 component you want in plain language.
 
@@ -20,9 +20,9 @@ yourself.
 
 ## Usage
 
-Ask your IDE to use any GodUI component:
+Ask your IDE to use any Myndui component:
 
-- "Add a GodUI magic button"
+- "Add a Myndui magic button"
 - "Add a marquee of logos"
 - "Add an animated gradient background"
 - "Add a number ticker that counts to 1000"
@@ -43,10 +43,10 @@ The server exposes three tools:
 
 ## How it works
 
-The server fetches the live registry at `https://godui.design/r`, so it always
-serves the latest components — no upgrade needed when GodUI ships something new.
-Point it at a local registry for development by setting `GODUI_REGISTRY_URL`:
+The server fetches the live registry at `https://myndui.design/r`, so it always
+serves the latest components — no upgrade needed when Myndui ships something new.
+Point it at a local registry for development by setting `MYNDUI_REGISTRY_URL`:
 
 ```bash
-GODUI_REGISTRY_URL=http://localhost:3000/r npx @godui/mcp@latest
+MYNDUI_REGISTRY_URL=http://localhost:3000/r npx @myndui/mcp@latest
 ```

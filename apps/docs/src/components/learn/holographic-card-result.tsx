@@ -1,6 +1,6 @@
 "use client";
 
-import { HolographicCard } from "@godui/components";
+import { HolographicCard } from "@myndui/components";
 import { useBareScene } from "@/components/learn/bare-scene-context";
 
 /**
@@ -17,7 +17,7 @@ export function HolographicCardResult() {
         </span>
         <div className="mt-24">
           <h3 className="text-xl font-semibold tracking-tight text-white">
-            GodUI
+            Myndui
           </h3>
           <p className="mt-1 text-xs text-white/70">
             Move your pointer across the card.

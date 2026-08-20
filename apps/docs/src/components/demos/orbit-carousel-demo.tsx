@@ -1,6 +1,6 @@
 "use client";
 
-import { OrbitCarousel } from "@godui/components";
+import { OrbitCarousel } from "@myndui/components";
 import { DemoCenter } from "@/components/demos/_kit";
 
 const CARDS = [

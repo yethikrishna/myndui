@@ -1,4 +1,4 @@
-import { PromptComposer } from "@godui/components";
+import { PromptComposer } from "@myndui/components";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { fn } from "storybook/test";
 import {
@@ -33,7 +33,7 @@ const meta = {
   },
   args: {
     variant: "comfortable",
-    placeholder: "Ask GodUI anything…",
+    placeholder: "Ask Myndui anything…",
     maxRows: 8,
     isStreaming: false,
     disabled: false,

@@ -1,5 +1,5 @@
 {
-  "name": "godui",
+  "name": "myndui",
   "private": true,
   "scripts": {
     "build": "turbo build",

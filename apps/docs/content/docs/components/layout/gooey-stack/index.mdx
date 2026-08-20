@@ -5,7 +5,7 @@ date: "2026-07-16"
 workbench: true
 ---
 
-import { GooeyStack } from "@godui/components";
+import { GooeyStack } from "@myndui/components";
 import { GooeyStackDemo } from "@/components/demos/gooey-stack-demo";
 import { GooeyNotificationsDemo } from "@/components/demos/gooey-notifications-demo";
 import { GooeyWalletDemo } from "@/components/demos/gooey-wallet-demo";
@@ -17,7 +17,7 @@ Stack content and let the surfaces behave like liquid. As the gap between cards 
 <Example
   label="Default"
   story="layout-gooeystack"
-  code={`import { GooeyStack } from "@/components/godui/gooey-stack";
+  code={`import { GooeyStack } from "@/components/myndui/gooey-stack";
 import { useState } from "react";
 
 export function ConnectPrompt() {
@@ -51,7 +51,7 @@ tray folds its history into the newest alert:
 
 <Example
   label="Notifications"
-  code={`import { GooeyStack } from "@/components/godui/gooey-stack";
+  code={`import { GooeyStack } from "@/components/myndui/gooey-stack";
 import { useState } from "react";
 
 export function NotificationTray() {
@@ -76,7 +76,7 @@ so the metaball bridge stays seamless:
 
 <Example
   label="Wallet"
-  code={`import { GooeyStack } from "@/components/godui/gooey-stack";
+  code={`import { GooeyStack } from "@/components/myndui/gooey-stack";
 import { useState } from "react";
 
 export function Wallet() {
@@ -108,7 +108,7 @@ and controls stay crisp while only the surfaces merge and the receding ones fros
 ## Usage
 
 ```tsx
-import { GooeyStack } from "@/components/godui/gooey-stack";
+import { GooeyStack } from "@/components/myndui/gooey-stack";
 ```
 
 Children are the **inner content** of each card — GooeyStack supplies the fused

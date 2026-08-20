@@ -1,4 +1,4 @@
-import { Highlighter } from "@godui/components";
+import { Highlighter } from "@myndui/components";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import {
   color,

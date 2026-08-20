@@ -14,7 +14,7 @@ Stacked, swipe-dismissible toasts with an imperative toast() API.
   label="Default"
   story="overlays-toast"
   code={`"use client";
-import { ToastProvider, toast } from "@/components/godui/toast";
+import { ToastProvider, toast } from "@/components/myndui/toast";
 
 export function ToastDemo() {
   return (
@@ -69,7 +69,7 @@ from anywhere. Toasts spring in, auto-dismiss, pause on hover, and can be swiped
 
 ```tsx
 // app/layout.tsx
-import { ToastProvider } from "@/components/godui/toast";
+import { ToastProvider } from "@/components/myndui/toast";
 
 export default function RootLayout({ children }) {
   return (
@@ -83,7 +83,7 @@ export default function RootLayout({ children }) {
 
 ```tsx
 "use client";
-import { toast } from "@/components/godui/toast";
+import { toast } from "@/components/myndui/toast";
 
 toast({ title: "Event created", description: "Friday at 5pm" });
 toast.success({ title: "Saved" });

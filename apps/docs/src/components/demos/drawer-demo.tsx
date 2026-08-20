@@ -1,6 +1,6 @@
 "use client";
 
-import { Drawer } from "@godui/components";
+import { Drawer } from "@myndui/components";
 import {
   Headphones,
   Keyboard,

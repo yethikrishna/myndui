@@ -1,6 +1,6 @@
 "use client";
 
-import { CoverFlow } from "@godui/components";
+import { CoverFlow } from "@myndui/components";
 import { DemoCenter } from "@/components/demos/_kit";
 
 const COVERS = [

@@ -1,6 +1,6 @@
 "use client";
 
-import { TiltCard } from "@godui/components";
+import { TiltCard } from "@myndui/components";
 import { Sparkles } from "lucide-react";
 import { DemoCenter } from "@/components/demos/_kit";
 

@@ -1,6 +1,6 @@
 "use client";
 
-import { HolographicCard } from "@godui/components";
+import { HolographicCard } from "@myndui/components";
 import { Sparkles } from "lucide-react";
 import { DemoCenter } from "@/components/demos/_kit";
 
@@ -18,7 +18,7 @@ export function HolographicCardDemo() {
         </div>
         <div className="mt-32">
           <h3 className="font-semibold text-2xl text-white tracking-tight">
-            GodUI
+            Myndui
           </h3>
           <p className="mt-2 text-sm text-white/70 leading-relaxed">
             Move your pointer across the card — the foil, glare, and glitter

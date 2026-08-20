@@ -4,7 +4,7 @@ description: A drag-to-reorder list where items lift on grab, spring to place, a
 workbench: true
 ---
 
-import { ReorderList, ReorderItem } from "@godui/components";
+import { ReorderList, ReorderItem } from "@myndui/components";
 import { ReorderListDemo } from "@/components/demos/reorder-list-demo";
 
 <Workbench>
@@ -14,7 +14,7 @@ A drag-to-reorder list where items lift on grab, spring to place, and neighbours
 <Example
   label="Default"
   story="layout-reorder-list"
-  code={`import { ReorderList, ReorderItem } from "@/components/godui/reorder-list";
+  code={`import { ReorderList, ReorderItem } from "@/components/myndui/reorder-list";
 import { useState } from "react";
 
 export function ReorderListDemo() {
@@ -49,7 +49,7 @@ and touch, and the grab lift is skipped under `prefers-reduced-motion`.
 ## Usage
 
 ```tsx
-import { ReorderList, ReorderItem } from "@/components/godui/reorder-list";
+import { ReorderList, ReorderItem } from "@/components/myndui/reorder-list";
 ```
 
 Hold `values` in state and pass the matching `setState` as `onReorder`. Each

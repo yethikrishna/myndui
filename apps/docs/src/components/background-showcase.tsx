@@ -13,7 +13,7 @@ import {
   geometricBackgroundVariants,
   gradientBackgroundPresets,
   gradientBackgroundVariants,
-} from "@godui/components";
+} from "@myndui/components";
 import {
   type ComponentType,
   type CSSProperties,
@@ -73,7 +73,7 @@ function buildCode(set: (typeof SETS)[Key], preset: CSSProperties) {
   const style = Object.entries(preset)
     .map(([key, value]) => `          ${key}: ${JSON.stringify(value)},`)
     .join("\n");
-  return `import { ${set.component} } from "@/components/godui/${set.name}";
+  return `import { ${set.component} } from "@/components/myndui/${set.name}";
 
 export function ${set.component}Demo() {
   return (

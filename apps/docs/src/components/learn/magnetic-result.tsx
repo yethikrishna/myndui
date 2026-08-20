@@ -1,6 +1,6 @@
 "use client";
 
-import { MagneticButton } from "@godui/components";
+import { MagneticButton } from "@myndui/components";
 import type { CSSProperties } from "react";
 import { useBareScene } from "@/components/learn/bare-scene-context";
 

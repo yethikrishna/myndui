@@ -1,10 +1,10 @@
 "use client";
 
-import { SplitFlapDisplay } from "@godui/components";
+import { SplitFlapDisplay } from "@myndui/components";
 import { useEffect, useState } from "react";
 import { useBareScene } from "@/components/learn/bare-scene-context";
 
-const WORDS = ["ARRIVALS", "BOARDING", "ON TIME", "DELAYED", "GODUI"];
+const WORDS = ["ARRIVALS", "BOARDING", "ON TIME", "DELAYED", "MYNDUI"];
 
 function Demo() {
   const [i, setI] = useState(0);

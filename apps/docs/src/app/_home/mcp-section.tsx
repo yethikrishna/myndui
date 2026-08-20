@@ -4,7 +4,7 @@ import { MCPInstall } from "@/components/mcp-install";
 import { SectionHeading } from "./section-heading";
 
 /**
- * The MCP story — GodUI's biggest differentiator vs. peer libraries. Server
+ * The MCP story — Myndui's biggest differentiator vs. peer libraries. Server
  * wrapper; the interactive install panel (MCPInstall) is the only client leaf.
  */
 export function McpSection() {
@@ -13,7 +13,7 @@ export function McpSection() {
       <SectionHeading
         eyebrow="AI-native"
         title="Install components with your agent"
-        description="GodUI ships an MCP server, so Cursor, Claude, Windsurf and friends can browse the library and drop components straight into your project — no copy-paste round trips."
+        description="Myndui ships an MCP server, so Cursor, Claude, Windsurf and friends can browse the library and drop components straight into your project — no copy-paste round trips."
       />
       <MCPInstall />
       <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm">

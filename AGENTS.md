@@ -1,6 +1,6 @@
-# GodUI — Agent Rules
+# Myndui — Agent Rules
 
-GodUI is a design system monorepo (**pnpm + Turbo**): `@godui/components` (`packages/components`), docs (`apps/docs`, Next.js + Fumadocs), and Storybook (`apps/storybook`).
+Myndui is a design system monorepo (**pnpm + Turbo**): `@myndui/components` (`packages/components`), docs (`apps/docs`, Next.js + Fumadocs), and Storybook (`apps/storybook`).
 
 Skills live in `.agents/skills/` (`.claude/skills` and `.cursor/skills` symlink to it). Read the relevant SKILL.md **before** starting the matching task.
 
@@ -18,7 +18,7 @@ Use **pnpm** — never npm or yarn.
 
 ## When to invoke which skill
 
-- **Creating or modifying a component** → invoke **`godui-component-creation`** first. (`component-creation` is the generic background variant.)
+- **Creating or modifying a component** → invoke **`myndui-component-creation`** first. (`component-creation` is the generic background variant.)
 - **Any color / token / palette / dark-mode / contrast work** → invoke **`oklch-skill`**.
 - **UI polish — animation, hover, shadow, border-radius, typography, micro-interaction, "feels off"** → invoke **`make-interfaces-feel-better`** (and `frontend-design`).
 
@@ -34,7 +34,7 @@ Use **pnpm** — never npm or yarn.
 ## Project gotchas (non-obvious — these bite repeatedly)
 
 - **No new CSS files; no `@layer components` blocks.** Author component styles as **inline Tailwind utilities** in the `.tsx` (`group`/`peer` + `data-[…]` variants + arbitrary properties for masks/3D/gradients). `styles.css` is the Tailwind **entry only** — `@import`, `@theme`, `@custom-variant`, `@keyframes`. Reference animations with `animate-<name>` utilities, never a `${var}` nested inside an arbitrary value (the scanner can't resolve it — write the class literal).
-- **Keyframes are per-component, not in the shared theme.** A component's `@keyframes` + its `--animate-*` token live in **two** places: `styles.css` (so Storybook/docs render) **and** that component's own `registry.json` entry (`cssVars.theme` for the token + `css` for the `@keyframes`). Keep them **out** of the `godui-theme` entry — the theme is pure design tokens, so installing one component pulls only its own animations. Shared keyframes (e.g. `magic-rainbow` on button/tab/input) are repeated in each entry; the shadcn CLI dedupes them on install. No per-component `@layer components` block.
+- **Keyframes are per-component, not in the shared theme.** A component's `@keyframes` + its `--animate-*` token live in **two** places: `styles.css` (so Storybook/docs render) **and** that component's own `registry.json` entry (`cssVars.theme` for the token + `css` for the `@keyframes`). Keep them **out** of the `myndui-theme` entry — the theme is pure design tokens, so installing one component pulls only its own animations. Shared keyframes (e.g. `magic-rainbow` on button/tab/input) are repeated in each entry; the shadcn CLI dedupes them on install. No per-component `@layer components` block.
 - **`registry.json` is hand-maintained.** Add the new entry, run `pnpm build:registry`; do **not** reformat existing entries.
 - **Static Tailwind classes only.** Never build class names dynamically (`grid-cols-${n}`) — the scanner can't see interpolated classes. Map to static strings.
 - **No raw `var(--color-*)` inside `@layer` blocks** — renders the wrong theme color. Use Tailwind utilities (`bg-primary`, `text-foreground`, …).

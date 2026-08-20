@@ -4,7 +4,7 @@ import {
   AgentFlow,
   type AgentFlowEdge,
   type AgentFlowNode,
-} from "@godui/components";
+} from "@myndui/components";
 
 const NODES: AgentFlowNode[] = [
   {

@@ -1,7 +1,7 @@
 import {
   ParticleDissolve,
   type ParticleDissolveProps,
-} from "@godui/components";
+} from "@myndui/components";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { radio, range } from "../playground/argtypes";
 
@@ -18,7 +18,7 @@ const meta = {
     particleSize: range(1, 6, 1, "Appearance"),
   },
   args: {
-    text: "GodUI",
+    text: "Myndui",
     mode: "loop",
     trigger: "mount",
     density: 4,

@@ -39,7 +39,7 @@ describe("buildBackgroundFileContent", () => {
 });
 
 describe("buildBackgroundRegistryItem", () => {
-  it("returns a shadcn-shaped item targeting components/godui", () => {
+  it("returns a shadcn-shaped item targeting components/myndui", () => {
     const item = buildBackgroundRegistryItem(
       "gradient-background",
       "blue-radial-glow",
@@ -47,10 +47,10 @@ describe("buildBackgroundRegistryItem", () => {
     expect(item).toMatchObject({
       name: "gradient-background",
       type: "registry:ui",
-      registryDependencies: ["@godui/godui-theme"],
+      registryDependencies: ["@myndui/myndui-theme"],
     });
     expect(item?.files[0].target).toBe(
-      "components/godui/gradient-background.tsx",
+      "components/myndui/gradient-background.tsx",
     );
     expect(item?.files[0].content.length).toBeGreaterThan(0);
   });

@@ -1,4 +1,4 @@
-import { LiquidGlassLens, type LiquidGlassLensProps } from "@godui/components";
+import { LiquidGlassLens, type LiquidGlassLensProps } from "@myndui/components";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { color, range } from "../playground/argtypes";
 

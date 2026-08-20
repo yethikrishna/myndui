@@ -1,6 +1,6 @@
 "use client";
 
-import { AsciiDither } from "@godui/components";
+import { AsciiDither } from "@myndui/components";
 import { DemoMedia } from "@/components/demos/_kit";
 
 const PORTRAIT =

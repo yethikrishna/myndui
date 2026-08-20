@@ -33,7 +33,7 @@ type ComponentPreviewProps = {
 
 type ViewMode = "desktop" | "mobile";
 
-const STORYBOOK_URL = "https://storybook.godui.design";
+const STORYBOOK_URL = "https://storybook.myndui.design";
 
 function ExternalIcon() {
   return (
@@ -87,7 +87,7 @@ function ViewToggle({
   );
 
   return (
-    // bg-fd-muted is aliased to muted-foreground in the GodUI theme (renders as a
+    // bg-fd-muted is aliased to muted-foreground in the Myndui theme (renders as a
     // heavy block), so use the real --muted track + raised --card active segment,
     // matching <Segmented>.
     <div

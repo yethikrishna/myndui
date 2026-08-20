@@ -1,6 +1,6 @@
 "use client";
 
-import { BentoCard, BentoGrid } from "@godui/components";
+import { BentoCard, BentoGrid } from "@myndui/components";
 import {
   Activity,
   Globe2,

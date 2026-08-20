@@ -1,4 +1,4 @@
-import { FloatingToolbar } from "@godui/components";
+import { FloatingToolbar } from "@myndui/components";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { hidden, toggle } from "../playground/argtypes";
 

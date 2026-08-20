@@ -4,7 +4,7 @@ description: Overlapping avatars that fan apart on hover, with a +N overflow chi
 workbench: true
 ---
 
-import { AvatarGroup } from "@godui/components";
+import { AvatarGroup } from "@myndui/components";
 
 export const people = [
   { src: "https://i.pravatar.cc/80?img=1", alt: "Ada" },
@@ -22,7 +22,7 @@ Overlapping avatars that fan apart on hover, with a +N overflow chip.
 <Example
   label="Default"
   story="layout-avatar-group"
-  code={`import { AvatarGroup } from "@/components/godui/avatar-group";
+  code={`import { AvatarGroup } from "@/components/myndui/avatar-group";
 
 const people = [
   { src: "/avatars/1.png", alt: "Ada" },
@@ -44,7 +44,7 @@ export function AvatarGroupDemo() {
 
 <Example
   label="Sizes"
-  code={`import { AvatarGroup } from "@/components/godui/avatar-group";
+  code={`import { AvatarGroup } from "@/components/myndui/avatar-group";
 
 export function AvatarGroupSizes() {
   return (
@@ -70,7 +70,7 @@ export function AvatarGroupSizes() {
 ## Usage
 
 ```tsx
-import { AvatarGroup } from "@godui/components";
+import { AvatarGroup } from "@myndui/components";
 
 <AvatarGroup
   avatars={[{ src: "/a.png", alt: "Ada" }, { fallback: "JO", alt: "Jo" }]}

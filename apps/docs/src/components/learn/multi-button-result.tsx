@@ -4,7 +4,7 @@ import {
   CompactMultiButton,
   MultiButton,
   type MultiButtonItem,
-} from "@godui/components";
+} from "@myndui/components";
 import { Archive, Download, Ellipsis, Eye, Share2 } from "lucide-react";
 import { useState } from "react";
 import { useBareScene } from "./bare-scene-context";

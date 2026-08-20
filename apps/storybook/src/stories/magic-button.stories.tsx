@@ -1,4 +1,4 @@
-import { MagicButton } from "@godui/components";
+import { MagicButton } from "@myndui/components";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { fn } from "storybook/test";
 import { action, select, text, toggle } from "../playground/argtypes";

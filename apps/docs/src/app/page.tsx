@@ -1,4 +1,4 @@
-import { MagicButton } from "@godui/components";
+import { MagicButton } from "@myndui/components";
 import { DocsLayout } from "fumadocs-ui/layouts/docs";
 import { ChevronDown } from "lucide-react";
 import Link from "next/link";
@@ -23,7 +23,7 @@ const structuredData = {
       "@type": "WebPage",
       "@id": `${siteConfig.url}/#webpage`,
       url: siteConfig.url,
-      name: "GodUI — UI Collection for Modern Interfaces",
+      name: "Myndui — UI Collection for Modern Interfaces",
       description: siteConfig.description,
       isPartOf: { "@id": `${siteConfig.url}/#website` },
       about: { "@id": `${siteConfig.url}/#organization` },

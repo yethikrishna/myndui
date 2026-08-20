@@ -1,6 +1,6 @@
 "use client";
 
-import { AppShowcase } from "@godui/components";
+import { AppShowcase } from "@myndui/components";
 import { useBareScene } from "@/components/learn/bare-scene-context";
 
 const demo = (
@@ -8,7 +8,7 @@ const demo = (
     device="iphone"
     mode="loop"
     width={220}
-    src="https://picsum.photos/seed/godui-learn-app/600/1300"
+    src="https://picsum.photos/seed/myndui-learn-app/600/1300"
     alt="App home screen"
   />
 );

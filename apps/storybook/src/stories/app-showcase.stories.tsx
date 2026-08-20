@@ -1,11 +1,11 @@
-import { AppShowcase } from "@godui/components";
+import { AppShowcase } from "@myndui/components";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 
-const TALL = "https://picsum.photos/seed/godui-app/600/1300";
+const TALL = "https://picsum.photos/seed/myndui-app/600/1300";
 const SCREENS = [
-  "https://picsum.photos/seed/godui-a/600/1300",
-  "https://picsum.photos/seed/godui-b/600/1300",
-  "https://picsum.photos/seed/godui-c/600/1300",
+  "https://picsum.photos/seed/myndui-a/600/1300",
+  "https://picsum.photos/seed/myndui-b/600/1300",
+  "https://picsum.photos/seed/myndui-c/600/1300",
 ];
 
 const meta = {

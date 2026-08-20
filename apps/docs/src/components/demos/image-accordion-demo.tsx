@@ -1,6 +1,6 @@
 "use client";
 
-import { ImageAccordion } from "@godui/components";
+import { ImageAccordion } from "@myndui/components";
 import { DemoMedia } from "@/components/demos/_kit";
 
 const PANELS = [

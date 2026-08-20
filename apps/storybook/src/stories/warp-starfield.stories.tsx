@@ -1,4 +1,4 @@
-import { WarpStarfield, type WarpStarfieldProps } from "@godui/components";
+import { WarpStarfield, type WarpStarfieldProps } from "@myndui/components";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { toggle } from "../playground/argtypes";
 import {

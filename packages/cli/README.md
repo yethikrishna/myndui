@@ -1,20 +1,20 @@
-# @godui/cli
+# @myndui/cli
 
-One command to add the [GodUI MCP server](https://www.npmjs.com/package/@godui/mcp)
+One command to add the [Myndui MCP server](https://www.npmjs.com/package/@myndui/mcp)
 to your AI IDE. It writes the MCP config for you — no manual JSON editing.
 
 ## Usage
 
 ```bash
-npx @godui/cli@latest install cursor
+npx @myndui/cli@latest install cursor
 ```
 
-Then **restart your IDE** and ask it for any GodUI component.
+Then **restart your IDE** and ask it for any Myndui component.
 
 ### Supported clients
 
 ```bash
-npx @godui/cli@latest install <client>
+npx @myndui/cli@latest install <client>
 ```
 
 - `cursor`
@@ -23,7 +23,7 @@ npx @godui/cli@latest install <client>
 - `cline`
 - `roo-cline`
 
-The command merges the GodUI server into the client's existing MCP config
+The command merges the Myndui server into the client's existing MCP config
 (creating it if needed) without touching your other servers.
 
 ## What it writes
@@ -31,15 +31,15 @@ The command merges the GodUI server into the client's existing MCP config
 ```json
 {
   "mcpServers": {
-    "godui": {
+    "myndui": {
       "command": "npx",
-      "args": ["-y", "@godui/mcp@latest"]
+      "args": ["-y", "@myndui/mcp@latest"]
     }
   }
 }
 ```
 
-Prefer to do it by hand? See the [Manual install](https://godui.design/docs/mcp).
+Prefer to do it by hand? See the [Manual install](https://myndui.design/docs/mcp).
 
 ## License
 

@@ -1,6 +1,6 @@
 "use client";
 
-import { ScrollTextReveal } from "@godui/components";
+import { ScrollTextReveal } from "@myndui/components";
 import { useRef } from "react";
 import { DemoScrollPort, DemoScrollRunway } from "@/components/demos/_kit";
 

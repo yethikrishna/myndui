@@ -1,6 +1,6 @@
 "use client";
 
-import { ScrollTimeline } from "@godui/components";
+import { ScrollTimeline } from "@myndui/components";
 import { useBareScene } from "@/components/learn/bare-scene-context";
 
 /**

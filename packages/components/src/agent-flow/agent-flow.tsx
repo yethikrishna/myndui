@@ -3,7 +3,7 @@
 import { motion, useReducedMotion } from "framer-motion";
 import * as React from "react";
 
-// GodUI motion language (values mirrored inline — see motion/tokens.ts).
+// Myndui motion language (values mirrored inline — see motion/tokens.ts).
 const EASE_OUT = [0.22, 1, 0.36, 1] as const;
 // Length-driven flow is linear (constant speed) so the border trace and the
 // beams never speed up or settle — see EASE.linear in motion/tokens.ts.

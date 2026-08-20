@@ -13,7 +13,7 @@ A physics-based confetti burst with an imperative fire API for celebratory momen
 <Example
   label="Default"
   story="effects-confetti"
-  code={`import { ConfettiButton } from "@/components/godui/confetti";
+  code={`import { ConfettiButton } from "@/components/myndui/confetti";
 
 export function ConfettiDemo() {
   return (
@@ -33,14 +33,14 @@ export function ConfettiDemo() {
 A thin wrapper over [canvas-confetti](https://github.com/catdad/canvas-confetti).
 `ConfettiButton` bursts from its own position on click. For full control, render
 `Confetti` and hold a ref, or call the imperative `confetti()` from anywhere —
-mirroring the `toast()` ergonomics used elsewhere in GodUI.
+mirroring the `toast()` ergonomics used elsewhere in Myndui.
 
 ## Usage
 
 ### Button
 
 ```tsx
-import { ConfettiButton } from "@/components/godui/confetti";
+import { ConfettiButton } from "@/components/myndui/confetti";
 ```
 
 ```tsx
@@ -52,7 +52,7 @@ import { ConfettiButton } from "@/components/godui/confetti";
 ### Imperative ref
 
 ```tsx
-import { Confetti, type ConfettiHandle } from "@/components/godui/confetti";
+import { Confetti, type ConfettiHandle } from "@/components/myndui/confetti";
 
 const ref = useRef<ConfettiHandle>(null);
 ```
@@ -65,7 +65,7 @@ const ref = useRef<ConfettiHandle>(null);
 ### Direct call
 
 ```tsx
-import { confetti } from "@/components/godui/confetti";
+import { confetti } from "@/components/myndui/confetti";
 
 confetti({ particleCount: 200, spread: 120 });
 ```

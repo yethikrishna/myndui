@@ -166,7 +166,7 @@ else if (e.key === "Escape") setOpen(false);
 
 A `mousedown` listener bound only while `open` is true closes the popover on
 any click outside the root — the same "bind on open, tear down on close"
-pattern GodUI's overlays share, so an idle combobox carries zero global
+pattern Myndui's overlays share, so an idle combobox carries zero global
 listeners. `useReducedMotion` collapses every spring above to
 `{ duration: 0 }`; the listbox still opens and closes, it just doesn't scale
 or slide to get there.

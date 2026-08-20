@@ -1,6 +1,6 @@
 "use client";
 
-import { MagneticButton } from "@godui/components";
+import { MagneticButton } from "@myndui/components";
 import { ArrowRight, Star } from "lucide-react";
 
 /** Default stage — one primary + one secondary product CTA. */
@@ -17,7 +17,7 @@ export function MagneticButtonDemo() {
         range={36}
         onClick={() =>
           window.open(
-            "https://github.com/LucasBassetti/godui",
+            "https://github.com/YethikrishnaR/myndui",
             "_blank",
             "noopener,noreferrer",
           )

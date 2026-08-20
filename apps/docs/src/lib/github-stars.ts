@@ -1,6 +1,6 @@
 import { cache } from "react";
 
-const REPO = "LucasBassetti/godui";
+const REPO = "YethikrishnaR/myndui";
 
 /**
  * Server-side star count, resolved at BUILD time and baked into the static HTML
@@ -24,7 +24,7 @@ export const getGitHubStars = cache(async (): Promise<number | null> => {
     const res = await fetch(`https://api.github.com/repos/${REPO}`, {
       headers: {
         Accept: "application/vnd.github+json",
-        "User-Agent": "godui-docs",
+        "User-Agent": "myndui-docs",
       },
       cache: "force-cache",
     });

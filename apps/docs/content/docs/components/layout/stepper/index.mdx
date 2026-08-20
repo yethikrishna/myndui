@@ -4,7 +4,7 @@ description: A step indicator with a spring-filled progress line and a number-to
 workbench: true
 ---
 
-import { Stepper } from "@godui/components";
+import { Stepper } from "@myndui/components";
 import { StepperInteractiveDemo } from "@/components/demos/stepper-demo";
 
 export const onboarding = [
@@ -21,7 +21,7 @@ A step indicator with a spring-filled progress line and a number-to-checkmark mo
 <Example
   label="Default"
   story="layout-stepper"
-  code={`import { Stepper } from "@/components/godui/stepper";
+  code={`import { Stepper } from "@/components/myndui/stepper";
 
 const steps = [
   { label: "Account", description: "Email & password" },
@@ -41,7 +41,7 @@ export function StepperDemo() {
 <Example
   label="Interactive"
   code={`import { useState } from "react";
-import { Stepper } from "@/components/godui/stepper";
+import { Stepper } from "@/components/myndui/stepper";
 
 export function StepperInteractive() {
   const [active, setActive] = useState(1);
@@ -63,7 +63,7 @@ export function StepperInteractive() {
 
 <Example
   label="Vertical"
-  code={`import { Stepper } from "@/components/godui/stepper";
+  code={`import { Stepper } from "@/components/myndui/stepper";
 
 export function StepperVertical() {
   return <Stepper steps={steps} active={2} orientation="vertical" />;
@@ -79,7 +79,7 @@ export function StepperVertical() {
 ## Usage
 
 ```tsx
-import { Stepper } from "@godui/components";
+import { Stepper } from "@myndui/components";
 
 <Stepper
   active={current}

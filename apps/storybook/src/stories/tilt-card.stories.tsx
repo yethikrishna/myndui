@@ -1,4 +1,4 @@
-import { TiltCard } from "@godui/components";
+import { TiltCard } from "@myndui/components";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { range, toggle } from "../playground/argtypes";
 import { centered } from "../playground/stage";

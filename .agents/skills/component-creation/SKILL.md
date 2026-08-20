@@ -5,7 +5,7 @@ description: "Use when creating a new component for the design system. Covers fi
 
 # Creating a New Component
 
-This skill documents the full process for adding a new component to the `@godui/components` design system monorepo.
+This skill documents the full process for adding a new component to the `@myndui/components` design system monorepo.
 
 ## 1. Package Structure
 
@@ -13,7 +13,7 @@ All components live in the shared package at `packages/components/`:
 
 ```
 packages/components/
-  package.json          # @godui/components
+  package.json          # @myndui/components
   styles.css            # theme tokens + @source "./src" + @layer components
   src/
     index.ts            # re-exports all components
@@ -84,15 +84,15 @@ Storybook imports the package stylesheet and scans component source:
 
 ```css
 @import "tailwindcss";
-@import "@godui/components/fonts/vite.css";
-@import "@godui/components/styles.css";
+@import "@myndui/components/fonts/vite.css";
+@import "@myndui/components/styles.css";
 
-@source "../node_modules/@godui/components/src";
+@source "../node_modules/@myndui/components/src";
 ```
 
 ### C. `apps/docs/src/app/globals.css`
 
-Docs already import `@godui/components/styles.css`. Keep an explicit source path:
+Docs already import `@myndui/components/styles.css`. Keep an explicit source path:
 
 ```css
 @source "../../../../packages/components/src";
@@ -100,18 +100,18 @@ Docs already import `@godui/components/styles.css`. Keep an explicit source path
 
 ### D. `apps/docs/next.config.ts`
 
-`@godui/components` is already in `transpilePackages`. No change needed unless adding a new package.
+`@myndui/components` is already in `transpilePackages`. No change needed unless adding a new package.
 
 ### E. Storybook & docs dependencies
 
-Both apps already depend on `@godui/components` via `workspace:*`. No `pnpm install` needed for new components in the shared package.
+Both apps already depend on `@myndui/components` via `workspace:*`. No `pnpm install` needed for new components in the shared package.
 
 ## 3. Storybook Story
 
 Create `apps/storybook/src/stories/{name}.stories.tsx`:
 
 ```typescript
-import { MyComponent, type MyComponentProps } from "@godui/components";
+import { MyComponent, type MyComponentProps } from "@myndui/components";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 
 const meta = {
@@ -146,9 +146,9 @@ title: My Component
 description: Short description.
 ---
 
-import { MyComponent } from "@godui/components";
+import { MyComponent } from "@myndui/components";
 
-<ComponentPreview code={`import { MyComponent } from "@godui/components";
+<ComponentPreview code={`import { MyComponent } from "@myndui/components";
 
 export function MyComponentDemo() {
   return <MyComponent variant="primary">Example</MyComponent>;
@@ -163,7 +163,7 @@ export function MyComponentDemo() {
 ## Usage
 
 \`\`\`tsx
-import { MyComponent } from "@godui/components";
+import { MyComponent } from "@myndui/components";
 \`\`\`
 
 \`\`\`tsx

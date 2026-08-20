@@ -1,6 +1,6 @@
 "use client";
 
-import { HeroParallax } from "@godui/components";
+import { HeroParallax } from "@myndui/components";
 import * as React from "react";
 import { useBareScene } from "@/components/learn/bare-scene-context";
 

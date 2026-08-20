@@ -6,7 +6,7 @@ import {
   ConversationThread,
   PromptComposer,
   StreamingText,
-} from "@godui/components";
+} from "@myndui/components";
 import { Copy, RotateCcw, ThumbsUp } from "lucide-react";
 import { useState } from "react";
 
@@ -62,7 +62,7 @@ export function ConversationThreadDemo() {
               <ConversationMessage
                 key={m.id}
                 role="assistant"
-                name="GodUI"
+                name="Myndui"
                 actions={actions(m.text)}
                 streaming={m.streaming}
               >

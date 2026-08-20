@@ -1,6 +1,6 @@
 "use client";
 
-import { TopographicDrift } from "@godui/components";
+import { TopographicDrift } from "@myndui/components";
 import { useBareScene } from "@/components/learn/bare-scene-context";
 
 const demo = (

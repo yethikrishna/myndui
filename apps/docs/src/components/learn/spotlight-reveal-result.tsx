@@ -1,6 +1,6 @@
 "use client";
 
-import { SpotlightReveal } from "@godui/components";
+import { SpotlightReveal } from "@myndui/components";
 import { useBareScene } from "@/components/learn/bare-scene-context";
 
 const Demo = (
@@ -11,7 +11,7 @@ const Demo = (
       <div className="grid size-full place-items-center bg-foreground">
         <div className="text-center">
           <p className="font-mono text-2xl font-semibold tracking-[0.18em] text-background">
-            GODUI
+            MYNDUI
           </p>
         </div>
       </div>

@@ -4,7 +4,7 @@ import {
   CompactMultiButton,
   MultiButton,
   type MultiButtonItem,
-} from "@godui/components";
+} from "@myndui/components";
 import {
   Archive,
   Bookmark,

@@ -1,5 +1,5 @@
 /**
- * Motion performance linter — enforces the GodUI Motion Performance guideline:
+ * Motion performance linter — enforces the Myndui Motion Performance guideline:
  * animation must run on the compositor (transform / opacity / filter) so it never
  * touches the main thread and holds 60fps.
  *
@@ -16,7 +16,7 @@
  *    thrash). Never allowed, no allowlist escape.
  *
  * Consumed by motion-lint.test.ts (the CI gate); run standalone with
- * `pnpm --filter @godui/components test:motion`. Not shipped in any component.
+ * `pnpm --filter @myndui/components test:motion`. Not shipped in any component.
  */
 
 export type ViolationKind = "banned" | "gated";

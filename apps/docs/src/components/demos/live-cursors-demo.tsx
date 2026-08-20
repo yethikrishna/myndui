@@ -1,6 +1,6 @@
 "use client";
 
-import { SimulatedCursors } from "@godui/components";
+import { SimulatedCursors } from "@myndui/components";
 
 export function LiveCursorsDemo() {
   return (

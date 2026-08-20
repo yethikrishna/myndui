@@ -4,7 +4,7 @@ import {
   useAudioAmplitude,
   VoiceOrb,
   type VoiceOrbState,
-} from "@godui/components";
+} from "@myndui/components";
 import * as React from "react";
 
 const STATES: VoiceOrbState[] = ["idle", "listening", "speaking"];

@@ -1,6 +1,6 @@
 "use client";
 
-import { SpotlightCard } from "@godui/components";
+import { SpotlightCard } from "@myndui/components";
 import { Check } from "lucide-react";
 
 type Plan = {

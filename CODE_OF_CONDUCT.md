@@ -60,7 +60,7 @@ representative at an online or offline event.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the community leaders responsible for enforcement by opening an
-issue at https://github.com/LucasBassetti/godui/issues or contacting the
+issue at https://github.com/YethikrishnaR/myndui/issues or contacting the
 maintainer directly. All complaints will be reviewed and investigated promptly
 and fairly.
 

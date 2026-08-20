@@ -1,6 +1,6 @@
 "use client";
 
-import { SwipeDeck } from "@godui/components";
+import { SwipeDeck } from "@myndui/components";
 
 const CARDS = [
   { name: "Aria Wells", role: "Product Designer", img: "1027" },

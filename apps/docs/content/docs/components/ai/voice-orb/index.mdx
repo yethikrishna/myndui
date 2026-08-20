@@ -4,7 +4,7 @@ description: A Siri-style audio-reactive orb that breathes when idle, pulses whi
 workbench: true
 ---
 
-import { VoiceOrb } from "@godui/components";
+import { VoiceOrb } from "@myndui/components";
 import { VoiceOrbDemo } from "@/components/demos/voice-orb-demo";
 
 <Workbench>
@@ -14,7 +14,7 @@ A Siri-style audio-reactive orb that breathes when idle, pulses while listening,
 <Example
   label="Default"
   story="ai-voice-orb"
-  code={`import { VoiceOrb, useAudioAmplitude } from "@/components/godui/voice-orb";
+  code={`import { VoiceOrb, useAudioAmplitude } from "@/components/myndui/voice-orb";
 import { useState } from "react";
 
 export function VoiceOrbDemo() {
@@ -39,7 +39,7 @@ while `speaking`, or pulses a ring while `listening`. All motion is paused under
 ## Usage
 
 ```tsx
-import { VoiceOrb, useAudioAmplitude } from "@/components/godui/voice-orb";
+import { VoiceOrb, useAudioAmplitude } from "@/components/myndui/voice-orb";
 ```
 
 The bundled `useAudioAmplitude` hook turns a `MediaStream` into a smoothed

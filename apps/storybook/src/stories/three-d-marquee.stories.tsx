@@ -1,4 +1,4 @@
-import { ThreeDMarquee } from "@godui/components";
+import { ThreeDMarquee } from "@myndui/components";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 
 const IMAGES = [

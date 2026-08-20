@@ -1,6 +1,6 @@
 "use client";
 
-import { ScrollProgress } from "@godui/components";
+import { ScrollProgress } from "@myndui/components";
 import * as React from "react";
 import { useBareScene } from "@/components/learn/bare-scene-context";
 

@@ -1,6 +1,6 @@
 {
-  "name": "godui",
-  "homepage": "https://godui.design",
+  "name": "myndui",
+  "homepage": "https://myndui.design",
   "generatedAt": "2026-08-08T06:24:25.282Z",
   "components": [
     {
@@ -9,8 +9,8 @@
       "description": "A disclosure list with spring height animation, rotating chevrons, and single or multiple open modes.",
       "category": "Layout",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/accordion"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/accordion"
     },
     {
       "name": "agent-flow",
@@ -18,8 +18,8 @@
       "description": "A draggable, pannable node-graph that visualizes an agent workflow — labelled nodes with live run status and data packets that flow along the edges between them.",
       "category": "AI",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/agent-flow"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/agent-flow"
     },
     {
       "name": "agent-timeline",
@@ -27,8 +27,8 @@
       "description": "A vertical timeline of agent steps with live status, a spring-filled connector, and collapsible reasoning or tool-output bodies that morph open.",
       "category": "AI",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/agent-timeline"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/agent-timeline"
     },
     {
       "name": "animated-beam",
@@ -36,8 +36,8 @@
       "description": "An animated gradient beam that travels along a path connecting two separate nodes.",
       "category": "Visualizations",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/animated-beam"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/animated-beam"
     },
     {
       "name": "animated-testimonials",
@@ -45,8 +45,8 @@
       "description": "A testimonial carousel with a shuffling image stack, word-by-word quote reveal, and autoplay.",
       "category": "Layout",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/animated-testimonials"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/animated-testimonials"
     },
     {
       "name": "animated-tooltip",
@@ -54,8 +54,8 @@
       "description": "A tooltip that springs in and tilts in 3D as the pointer moves across its trigger.",
       "category": "Overlays",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/animated-tooltip"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/animated-tooltip"
     },
     {
       "name": "app-showcase",
@@ -63,8 +63,8 @@
       "description": "A realistic iPhone or Android device frame that shows your app on screen, with scroll, loop, carousel, and cluster interactions.",
       "category": "Layout",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/app-showcase"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/app-showcase"
     },
     {
       "name": "ascii-dither",
@@ -72,8 +72,8 @@
       "description": "Renders an image or video as a live field of ASCII characters or halftone dither dots, inked by theme or source color.",
       "category": "Effects",
       "dependencies": [],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/ascii-dither"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/ascii-dither"
     },
     {
       "name": "aurora-text",
@@ -81,8 +81,8 @@
       "description": "Gradient text with a rainbow aurora that drifts across the letters.",
       "category": "Text",
       "dependencies": [],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/aurora-text"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/aurora-text"
     },
     {
       "name": "avatar-group",
@@ -90,8 +90,8 @@
       "description": "Overlapping avatars that fan apart on hover, with a +N overflow chip.",
       "category": "Layout",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/avatar-group"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/avatar-group"
     },
     {
       "name": "beam-draw",
@@ -99,8 +99,8 @@
       "description": "SVG beams that draw themselves along scroll progress with a soft glow.",
       "category": "Effects",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/beam-draw"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/beam-draw"
     },
     {
       "name": "bento-grid",
@@ -108,8 +108,8 @@
       "description": "A modular bento layout of mixed-size cards that stagger in on scroll and lift with a spotlight on hover.",
       "category": "Layout",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/bento-grid"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/bento-grid"
     },
     {
       "name": "blueprint-grid",
@@ -117,8 +117,8 @@
       "description": "A technical blueprint lattice — ruled lines, a dot matrix, or a perspective floor — with a diagonal light sweep and a cursor spotlight. Pure CSS.",
       "category": "Backgrounds",
       "dependencies": [],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/blueprint-grid"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/blueprint-grid"
     },
     {
       "name": "border-beam",
@@ -126,8 +126,8 @@
       "description": "An animated beam of light that travels around the border of its container.",
       "category": "Effects",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/border-beam"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/border-beam"
     },
     {
       "name": "breadcrumbs",
@@ -135,8 +135,8 @@
       "description": "A breadcrumb trail with hover-fill pills, animated path changes, and an overflow that collapses into an expandable popover.",
       "category": "Navigation",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/breadcrumbs"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/breadcrumbs"
     },
     {
       "name": "card-swap",
@@ -144,8 +144,8 @@
       "description": "A 3D stack of cards that cycles through a showcase loop, with pointer parallax and spring re-flow.",
       "category": "Layout",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/card-swap"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/card-swap"
     },
     {
       "name": "combobox",
@@ -153,8 +153,8 @@
       "description": "A type-ahead autocomplete with staggered result reveal, highlighted matches, keyboard navigation, and an async loading state.",
       "category": "Navigation",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/combobox"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/combobox"
     },
     {
       "name": "command-palette",
@@ -162,8 +162,8 @@
       "description": "A ⌘K command menu with fuzzy filtering, keyboard navigation, and a spring-tracked active highlight.",
       "category": "Overlays",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/command-palette"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/command-palette"
     },
     {
       "name": "comment-pin",
@@ -171,8 +171,8 @@
       "description": "Figma-style annotation pins that spring in over any surface and expand into a threaded comment popover with a reply field.",
       "category": "Collaboration",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/comment-pin"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/comment-pin"
     },
     {
       "name": "confetti",
@@ -180,8 +180,8 @@
       "description": "A physics-based confetti burst with an imperative fire API for celebratory moments.",
       "category": "Effects",
       "dependencies": ["canvas-confetti"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/confetti"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/confetti"
     },
     {
       "name": "container-scroll",
@@ -189,8 +189,8 @@
       "description": "A device frame that un-tilts from a 3D perspective and scales to rest as you scroll — the classic product hero.",
       "category": "Layout",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/container-scroll"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/container-scroll"
     },
     {
       "name": "context-menu",
@@ -198,8 +198,8 @@
       "description": "A right-click menu that springs from the cursor point and flips to stay in the viewport, with shortcuts and destructive actions.",
       "category": "Navigation",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/context-menu"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/context-menu"
     },
     {
       "name": "conversation-thread",
@@ -207,8 +207,8 @@
       "description": "A streaming AI chat surface where messages spring in, tokens reveal with a blinking caret, hover actions fade in, and the view auto-sticks to the latest message.",
       "category": "AI",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/conversation-thread"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/conversation-thread"
     },
     {
       "name": "cover-flow",
@@ -216,8 +216,8 @@
       "description": "A physics 3D cover flow — the centered slide faces front while neighbours rotate away in perspective, with momentum drag and snap.",
       "category": "Layout",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/cover-flow"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/cover-flow"
     },
     {
       "name": "dock",
@@ -225,8 +225,8 @@
       "description": "A macOS-style dock whose items magnify with spring physics as the pointer moves across them.",
       "category": "Navigation",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/dock"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/dock"
     },
     {
       "name": "drawer",
@@ -234,8 +234,8 @@
       "description": "A draggable bottom or side sheet with rubber-band physics, flick-to-dismiss, scrim, and scroll lock.",
       "category": "Overlays",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/drawer"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/drawer"
     },
     {
       "name": "dropdown-menu",
@@ -243,8 +243,8 @@
       "description": "An accessible dropdown that springs open from its trigger edge, with submenus, shortcuts, separators, and keyboard navigation.",
       "category": "Navigation",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/dropdown-menu"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/dropdown-menu"
     },
     {
       "name": "dynamic-island",
@@ -252,8 +252,8 @@
       "description": "An Apple-inspired pill that springs between size presets while its content cross-fades.",
       "category": "Overlays",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/dynamic-island"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/dynamic-island"
     },
     {
       "name": "elastic-text",
@@ -261,8 +261,8 @@
       "description": "Variable-font text whose weight springs up under an automatic spotlight or the pointer.",
       "category": "Text",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/elastic-text"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/elastic-text"
     },
     {
       "name": "encrypted-card",
@@ -270,8 +270,8 @@
       "description": "A card whose surface hides a live stream of scrambling ciphertext, revealed only through a soft spotlight that follows the pointer.",
       "category": "Effects",
       "dependencies": [],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/encrypted-card"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/encrypted-card"
     },
     {
       "name": "filter-bar",
@@ -279,8 +279,8 @@
       "description": "A faceted filter bar with searchable multi-select popovers, count badges, and active filters that spring in and out as chips.",
       "category": "Navigation",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/filter-bar"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/filter-bar"
     },
     {
       "name": "floating-toolbar",
@@ -288,8 +288,8 @@
       "description": "A context toolbar that springs into view with magnetic, morphing action buttons.",
       "category": "Overlays",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/floating-toolbar"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/floating-toolbar"
     },
     {
       "name": "flow-field",
@@ -297,8 +297,8 @@
       "description": "Particles streaming along an evolving noise vector field, leaving silky fading trails. Paints its own themed background.",
       "category": "Backgrounds",
       "dependencies": [],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/flow-field"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/flow-field"
     },
     {
       "name": "fluid-cursor",
@@ -306,8 +306,8 @@
       "description": "A spring-lagged blend-mode cursor that trails the pointer and swells over interactive elements.",
       "category": "Effects",
       "dependencies": [],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/fluid-cursor"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/fluid-cursor"
     },
     {
       "name": "globe",
@@ -315,8 +315,8 @@
       "description": "A draggable, auto-rotating WebGL globe with glowing location markers.",
       "category": "Visualizations",
       "dependencies": ["cobe"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/globe"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/globe"
     },
     {
       "name": "gooey-fab",
@@ -324,8 +324,8 @@
       "description": "A floating action button that gooey-morphs to extrude its satellite actions like liquid metaballs.",
       "category": "Buttons",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/gooey-fab"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/gooey-fab"
     },
     {
       "name": "gooey-stack",
@@ -333,8 +333,8 @@
       "description": "A stack of cards that fuse with a liquid metaball bridge and collapse behind an anchor with a spring.",
       "category": "Layout",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/gooey-stack"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/gooey-stack"
     },
     {
       "name": "gravity",
@@ -342,8 +342,8 @@
       "description": "A physics playground where elements fall, pile, collide, and can be dragged and flung.",
       "category": "Visualizations",
       "dependencies": ["matter-js"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/gravity"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/gravity"
     },
     {
       "name": "hero-parallax",
@@ -351,8 +351,8 @@
       "description": "A scroll-driven grid of cards that drift in alternating directions on a tilted perspective plane.",
       "category": "Layout",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/hero-parallax"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/hero-parallax"
     },
     {
       "name": "highlighter",
@@ -360,8 +360,8 @@
       "description": "Hand-drawn rough-notation annotations (highlight, underline, box, circle) over text.",
       "category": "Text",
       "dependencies": ["framer-motion", "rough-notation"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/highlighter"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/highlighter"
     },
     {
       "name": "hold-confirm-button",
@@ -369,8 +369,8 @@
       "description": "Press and hold to confirm a destructive action; a radial fill commits at 100% and releasing early cancels.",
       "category": "Buttons",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/hold-confirm-button"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/hold-confirm-button"
     },
     {
       "name": "holographic-card",
@@ -378,8 +378,8 @@
       "description": "A trading-card holo effect — iridescent foil, specular glare, and glitter that tilt and shift with the pointer or device gyroscope.",
       "category": "Layout",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/holographic-card"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/holographic-card"
     },
     {
       "name": "image-accordion",
@@ -387,8 +387,8 @@
       "description": "Horizontal image panels that expand on hover to reveal their caption — an elegant, space-efficient gallery.",
       "category": "Layout",
       "dependencies": [],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/image-accordion"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/image-accordion"
     },
     {
       "name": "image-compare",
@@ -396,8 +396,8 @@
       "description": "A draggable before/after slider with clip-path reveal, keyboard support, and a pulsing handle hint.",
       "category": "Layout",
       "dependencies": [],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/image-compare"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/image-compare"
     },
     {
       "name": "image-trail",
@@ -405,8 +405,8 @@
       "description": "Images spawn along the pointer's path, pop in, and drift away — the signature portfolio hover effect.",
       "category": "Effects",
       "dependencies": [],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/image-trail"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/image-trail"
     },
     {
       "name": "inertia-gallery",
@@ -414,8 +414,8 @@
       "description": "A horizontal gallery you throw with the pointer — momentum carries it, it rubber-bands at the ends, and slides scale, blur, and fade with distance from center.",
       "category": "Layout",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/inertia-gallery"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/inertia-gallery"
     },
     {
       "name": "jelly-button",
@@ -423,8 +423,8 @@
       "description": "A squishy button that deforms on press and springs back with a jelly wobble, running entirely on the compositor.",
       "category": "Buttons",
       "dependencies": [],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/jelly-button"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/jelly-button"
     },
     {
       "name": "lamp",
@@ -432,8 +432,8 @@
       "description": "A conic-gradient lamp that ignites and reveals a headline as it scrolls into view.",
       "category": "Effects",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/lamp"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/lamp"
     },
     {
       "name": "light-rays",
@@ -441,8 +441,8 @@
       "description": "Volumetric god-rays that slowly sweep and breathe, with optional film grain. Pure CSS.",
       "category": "Backgrounds",
       "dependencies": [],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/light-rays"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/light-rays"
     },
     {
       "name": "liquid-glass-card",
@@ -450,8 +450,8 @@
       "description": "A glass panel that refracts the content behind it with a mouse-tracked specular highlight.",
       "category": "Glass",
       "dependencies": [],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/liquid-glass-card"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/liquid-glass-card"
     },
     {
       "name": "liquid-glass-lens",
@@ -459,8 +459,8 @@
       "description": "A circular glass lens that floats over your content and follows the cursor, refracting everything beneath it.",
       "category": "Glass",
       "dependencies": [],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/liquid-glass-lens"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/liquid-glass-lens"
     },
     {
       "name": "liquid-image",
@@ -468,8 +468,8 @@
       "description": "A premium hover effect that ripples and distorts an image like liquid, intensifying with cursor speed.",
       "category": "Effects",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/liquid-image"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/liquid-image"
     },
     {
       "name": "liquid-metaballs",
@@ -477,8 +477,8 @@
       "description": "Gooey blobs that drift, collide, and merge under an SVG goo filter, with an optional cursor blob. Per-instance filter id.",
       "category": "Backgrounds",
       "dependencies": [],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/liquid-metaballs"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/liquid-metaballs"
     },
     {
       "name": "live-cursors",
@@ -486,8 +486,8 @@
       "description": "Smoothly interpolated multiplayer cursors with trailing name flags and optional cursor-chat, plus a self-driving simulated-peer mode.",
       "category": "Collaboration",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/live-cursors"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/live-cursors"
     },
     {
       "name": "magic-button",
@@ -495,8 +495,8 @@
       "description": "A tactile 3D push button with an animated rainbow edge and shadow.",
       "category": "Buttons",
       "dependencies": [],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/magic-button"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/magic-button"
     },
     {
       "name": "magic-input",
@@ -504,8 +504,8 @@
       "description": "A 3D layered text input that lifts on focus with an optional rainbow edge animation.",
       "category": "Inputs",
       "dependencies": [],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/magic-input"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/magic-input"
     },
     {
       "name": "magic-tab",
@@ -513,8 +513,8 @@
       "description": "A segmented tab bar where the selected option lifts into a 3D button with an optional rainbow edge.",
       "category": "Navigation",
       "dependencies": [],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/magic-tab"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/magic-tab"
     },
     {
       "name": "magnetic-button",
@@ -522,8 +522,8 @@
       "description": "A button whose content is magnetically pulled toward the cursor within a sensor range, springing back on exit.",
       "category": "Buttons",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/magnetic-button"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/magnetic-button"
     },
     {
       "name": "marquee",
@@ -531,8 +531,8 @@
       "description": "An infinite, seamless scrolling row or column of content that pauses on hover.",
       "category": "Effects",
       "dependencies": [],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/marquee"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/marquee"
     },
     {
       "name": "mask-button",
@@ -540,8 +540,8 @@
       "description": "A button whose face wipes away on hover via an animated CSS sprite-sheet mask, revealing the label behind it.",
       "category": "Buttons",
       "dependencies": [],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/mask-button"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/mask-button"
     },
     {
       "name": "mega-menu",
@@ -549,8 +549,8 @@
       "description": "A Vercel-style navigation menu with a direction-aware highlight and a panel that springs and height-morphs between triggers.",
       "category": "Navigation",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/mega-menu"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/mega-menu"
     },
     {
       "name": "morph-gallery",
@@ -558,8 +558,8 @@
       "description": "A thumbnail grid where a tile morphs into a fullscreen detail view via a shared-element transition, with swipe and keyboard navigation.",
       "category": "Layout",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/morph-gallery"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/morph-gallery"
     },
     {
       "name": "morphing-dialog",
@@ -567,8 +567,8 @@
       "description": "A card that physically morphs into a modal through a shared layout, then springs back on close.",
       "category": "Overlays",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/morphing-dialog"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/morphing-dialog"
     },
     {
       "name": "multi-button",
@@ -576,8 +576,8 @@
       "description": "A responsive action rail where Standard reserves width, Compact collapses, Original pairs ease-out redistribution with spring labels, and Gooey adds elastic metaballs.",
       "category": "Buttons",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/multi-button"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/multi-button"
     },
     {
       "name": "notification-inbox",
@@ -585,8 +585,8 @@
       "description": "A Linear-style notification center with time-bucketed groups, unread accent rails, swipe-to-archive, mark-all-read, and a polished empty state.",
       "category": "Collaboration",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/notification-inbox"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/notification-inbox"
     },
     {
       "name": "number-ticker",
@@ -594,8 +594,8 @@
       "description": "Animates a number to its target value with spring physics when scrolled into view.",
       "category": "Text",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/number-ticker"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/number-ticker"
     },
     {
       "name": "orbit-carousel",
@@ -603,8 +603,8 @@
       "description": "Slides ride an arc and rotate around a pivot, tilting and receding with angular distance from the front, with momentum drag and snap.",
       "category": "Layout",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/orbit-carousel"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/orbit-carousel"
     },
     {
       "name": "orbiting-circles",
@@ -612,8 +612,8 @@
       "description": "Icons that orbit a center point on a configurable ring, staying upright as they travel.",
       "category": "Visualizations",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/orbiting-circles"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/orbiting-circles"
     },
     {
       "name": "otp-input",
@@ -621,8 +621,8 @@
       "description": "A segmented one-time-code input with auto-advance, paste-to-fill, a traveling caret, and error shake.",
       "category": "Inputs",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/otp-input"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/otp-input"
     },
     {
       "name": "particle-dissolve",
@@ -630,8 +630,8 @@
       "description": "Text or an image is sampled into particles that scatter and reform — a dramatic entrance or transition.",
       "category": "Effects",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/particle-dissolve"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/particle-dissolve"
     },
     {
       "name": "pixel-grid",
@@ -639,8 +639,8 @@
       "description": "A grid of flickering squares with an optional cursor spotlight that lights up nearby pixels.",
       "category": "Backgrounds",
       "dependencies": [],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/pixel-grid"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/pixel-grid"
     },
     {
       "name": "presence-facepile",
@@ -648,8 +648,8 @@
       "description": "Live avatars with animated status rings, spring join/leave, and a +N overflow that expands into a presence list.",
       "category": "Collaboration",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/presence-facepile"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/presence-facepile"
     },
     {
       "name": "progress-fold-button",
@@ -657,8 +657,8 @@
       "description": "A button whose front face folds back to reveal a controlled progress bar while loading.",
       "category": "Buttons",
       "dependencies": [],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/progress-fold-button"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/progress-fold-button"
     },
     {
       "name": "progressive-card-reveal",
@@ -666,8 +666,8 @@
       "description": "A vertical stack of cards where one card expands to its full view while the rest collapse to compact pills, animating the morph between them.",
       "category": "Layout",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/progressive-card-reveal"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/progressive-card-reveal"
     },
     {
       "name": "prompt-composer",
@@ -675,8 +675,8 @@
       "description": "An AI input box with an auto-growing textarea, attachment chips, an inline model picker, and a send button that morphs into a stop control while streaming.",
       "category": "AI",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/prompt-composer"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/prompt-composer"
     },
     {
       "name": "prompt-suggestions",
@@ -684,8 +684,8 @@
       "description": "Animated starter prompts for AI empty states that stagger in, lift on hover, and feed straight into the composer when chosen.",
       "category": "AI",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/prompt-suggestions"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/prompt-suggestions"
     },
     {
       "name": "reorder-list",
@@ -693,8 +693,8 @@
       "description": "A drag-to-reorder list where items lift on grab, spring to place, and neighbours flow around them.",
       "category": "Layout",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/reorder-list"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/reorder-list"
     },
     {
       "name": "resizable-header",
@@ -702,8 +702,8 @@
       "description": "A sticky navbar that springs into a compact, blurred floating pill as you scroll, with a shared-element active indicator.",
       "category": "Navigation",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/resizable-header"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/resizable-header"
     },
     {
       "name": "scroll-progress",
@@ -711,8 +711,8 @@
       "description": "A spring-smoothed reading indicator — a pinned top bar or a fading back-to-top ring.",
       "category": "Effects",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/scroll-progress"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/scroll-progress"
     },
     {
       "name": "scroll-reveal",
@@ -720,8 +720,8 @@
       "description": "Reveals its children with a spring as they scroll into view, with optional scroll-velocity skew.",
       "category": "Effects",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/scroll-reveal"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/scroll-reveal"
     },
     {
       "name": "scroll-stack",
@@ -729,8 +729,8 @@
       "description": "Pinned cards that scale, recede, and stack as the page scrolls — the premium feature-reveal section.",
       "category": "Layout",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/scroll-stack"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/scroll-stack"
     },
     {
       "name": "scroll-text-reveal",
@@ -738,8 +738,8 @@
       "description": "Kinetic typography that scrubs each word from dim to sharp as the paragraph scrolls through view — reverses cleanly on scroll-up.",
       "category": "Text",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/scroll-text-reveal"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/scroll-text-reveal"
     },
     {
       "name": "scroll-timeline",
@@ -747,8 +747,8 @@
       "description": "A scrollytelling timeline whose progress line grows as you scroll, revealing entries with sticky labels.",
       "category": "Visualizations",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/scroll-timeline"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/scroll-timeline"
     },
     {
       "name": "segmented-control",
@@ -756,8 +756,8 @@
       "description": "An iOS-style selector with a sliding pill that springs between options.",
       "category": "Navigation",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/segmented-control"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/segmented-control"
     },
     {
       "name": "shimmer-button",
@@ -765,8 +765,8 @@
       "description": "A button with an animated shimmering border light that speeds up on hover.",
       "category": "Buttons",
       "dependencies": [],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/shimmer-button"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/shimmer-button"
     },
     {
       "name": "slide-confirm-button",
@@ -774,8 +774,8 @@
       "description": "A drag-to-confirm thumb for high-stakes actions that snaps past a threshold and springs back otherwise.",
       "category": "Buttons",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/slide-confirm-button"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/slide-confirm-button"
     },
     {
       "name": "source-citations",
@@ -783,8 +783,8 @@
       "description": "Inline numbered citation pills that spring out a rich preview card on hover, plus a collapsible source list for AI answers.",
       "category": "AI",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/source-citations"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/source-citations"
     },
     {
       "name": "spin-viewer",
@@ -792,8 +792,8 @@
       "description": "A 360-degree product viewer — drag to spin an object through a sequence of frames, with optional idle auto-rotate and a touch-friendly hint.",
       "category": "Layout",
       "dependencies": [],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/spin-viewer"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/spin-viewer"
     },
     {
       "name": "split-flap-display",
@@ -801,8 +801,8 @@
       "description": "A Solari departure-board display: each character spins through the charset on stacked flip leaves — the old top hinges away, the new bottom rises into place — settling on the value with a staggered column wave. View-only, compositor-only motion, reveals on scroll.",
       "category": "Layout",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/split-flap-display"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/split-flap-display"
     },
     {
       "name": "spotlight-card",
@@ -810,8 +810,8 @@
       "description": "A card with a radial spotlight glow that follows the pointer, optionally lighting the border.",
       "category": "Effects",
       "dependencies": [],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/spotlight-card"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/spotlight-card"
     },
     {
       "name": "spotlight-reveal",
@@ -819,8 +819,8 @@
       "description": "A cursor-following flashlight that cuts through the top layer to expose a hidden layer beneath.",
       "category": "Effects",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/spotlight-reveal"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/spotlight-reveal"
     },
     {
       "name": "stack-badge",
@@ -828,8 +828,8 @@
       "description": "A tech-stack wall of monochrome logo chips that stagger in on scroll and lift into their full brand color with a soft glow on hover; ships 20 built-in tech logos plus custom items.",
       "category": "Layout",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/stack-badge"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/stack-badge"
     },
     {
       "name": "stepper",
@@ -837,8 +837,8 @@
       "description": "A step indicator with a spring-filled progress line and a number-to-checkmark morph.",
       "category": "Layout",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/stepper"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/stepper"
     },
     {
       "name": "sticky-scroll",
@@ -846,8 +846,8 @@
       "description": "A pinned two-column reveal where scrolling the text steps a synced visual panel through each item.",
       "category": "Layout",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/sticky-scroll"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/sticky-scroll"
     },
     {
       "name": "store-badge",
@@ -855,8 +855,8 @@
       "description": "App Store and Google Play download badges with light/dark finishes, a hover sheen, and an optional scan-to-download QR popover.",
       "category": "Layout",
       "dependencies": ["framer-motion", "uqr"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/store-badge"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/store-badge"
     },
     {
       "name": "swipe-deck",
@@ -864,8 +864,8 @@
       "description": "A physics, Tinder-style swipeable card deck with throw-to-dismiss, directional intent, and keyboard controls.",
       "category": "Layout",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/swipe-deck"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/swipe-deck"
     },
     {
       "name": "tab-bar",
@@ -873,8 +873,8 @@
       "description": "A mobile bottom navigation where a shared-element blob slides under the active tab and the icon gives a haptic-style pop.",
       "category": "Navigation",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/tab-bar"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/tab-bar"
     },
     {
       "name": "terminal",
@@ -882,8 +882,8 @@
       "description": "An animated terminal window that types out a scripted sequence of commands and output, with window chrome and a blinking caret.",
       "category": "Effects",
       "dependencies": [],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/terminal"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/terminal"
     },
     {
       "name": "text-animate",
@@ -891,8 +891,8 @@
       "description": "Staggered text entrance animations (fade, blur, slide) by character, word, or line.",
       "category": "Text",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/text-animate"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/text-animate"
     },
     {
       "name": "text-scramble",
@@ -900,8 +900,8 @@
       "description": "Characters cycle through random glyphs and resolve into the target text — a decrypt / matrix reveal.",
       "category": "Text",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/text-scramble"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/text-scramble"
     },
     {
       "name": "three-d-marquee",
@@ -909,8 +909,8 @@
       "description": "A perspective grid of images whose columns drift in alternating directions on a tilted plane.",
       "category": "Layout",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/three-d-marquee"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/three-d-marquee"
     },
     {
       "name": "tilt-card",
@@ -918,8 +918,8 @@
       "description": "A card that tilts in 3D toward the pointer with parallax depth and a specular glare.",
       "category": "Layout",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/tilt-card"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/tilt-card"
     },
     {
       "name": "toast",
@@ -927,8 +927,8 @@
       "description": "Stacked, swipe-dismissible toasts with an imperative toast() API and auto-dismiss.",
       "category": "Overlays",
       "dependencies": ["framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/toast"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/toast"
     },
     {
       "name": "topographic-drift",
@@ -936,8 +936,8 @@
       "description": "Slowly drifting topographic contour lines — a living elevation map drawn with marching squares on a Canvas.",
       "category": "Backgrounds",
       "dependencies": [],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/topographic-drift"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/topographic-drift"
     },
     {
       "name": "voice-orb",
@@ -945,8 +945,8 @@
       "description": "A Siri-style audio-reactive orb that breathes when idle, pulses while listening, and swells with the voice as it speaks.",
       "category": "AI",
       "dependencies": [],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/voice-orb"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/voice-orb"
     },
     {
       "name": "warp-starfield",
@@ -954,8 +954,8 @@
       "description": "A depth starfield you fly through — stars stream toward the viewer with cursor parallax and an optional hyperspace warp.",
       "category": "Backgrounds",
       "dependencies": [],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/warp-starfield"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/warp-starfield"
     },
     {
       "name": "world-map",
@@ -963,8 +963,8 @@
       "description": "A dotted world map that draws animated arcs between locations, with pulsing endpoint pins.",
       "category": "Visualizations",
       "dependencies": ["dotted-map", "framer-motion"],
-      "registryDependencies": ["@godui/godui-theme"],
-      "install": "npx shadcn@latest add @godui/world-map"
+      "registryDependencies": ["@myndui/myndui-theme"],
+      "install": "npx shadcn@latest add @myndui/world-map"
     }
   ]
 }

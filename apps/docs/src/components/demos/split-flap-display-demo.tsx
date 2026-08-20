@@ -1,10 +1,10 @@
 "use client";
 
-import { SplitFlapDisplay } from "@godui/components";
+import { SplitFlapDisplay } from "@myndui/components";
 import * as React from "react";
 import { DemoCenter } from "./_kit";
 
-const WORDS = ["SPLIT", "FLAP", "SOLARI", "REVEAL", "GODUI"];
+const WORDS = ["SPLIT", "FLAP", "SOLARI", "REVEAL", "MYNDUI"];
 
 export function SplitFlapDisplayDemo() {
   const [i, setI] = React.useState(0);

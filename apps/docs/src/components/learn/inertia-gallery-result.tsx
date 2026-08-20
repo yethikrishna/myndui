@@ -1,6 +1,6 @@
 "use client";
 
-import { InertiaGallery } from "@godui/components";
+import { InertiaGallery } from "@myndui/components";
 import { useBareScene } from "@/components/learn/bare-scene-context";
 
 /**

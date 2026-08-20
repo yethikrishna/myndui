@@ -1,4 +1,4 @@
-import { buildBackgroundRegistryItem } from "@godui/components/registry";
+import { buildBackgroundRegistryItem } from "@myndui/components/registry";
 import type { NextRequest } from "next/server";
 
 // Background items are served dynamically (not by `shadcn build`) so the CLI can

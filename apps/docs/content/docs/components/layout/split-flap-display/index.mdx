@@ -21,10 +21,10 @@ blanks the first time it scrolls into view, then re-flips whenever `value` chang
 <Example
   label="Now showing"
   story="layout-split-flap-display"
-  code={`import { SplitFlapDisplay } from "@/components/godui/split-flap-display";
+  code={`import { SplitFlapDisplay } from "@/components/myndui/split-flap-display";
 import { useEffect, useState } from "react";
 
-const WORDS = ["SPLIT", "FLAP", "SOLARI", "REVEAL", "GODUI"];
+const WORDS = ["SPLIT", "FLAP", "SOLARI", "REVEAL", "MYNDUI"];
 
 export function NowShowing() {
   const [i, setI] = useState(0);
@@ -42,7 +42,7 @@ export function NowShowing() {
 <Example
   label="Live clock"
   story="layout-split-flap-display"
-  code={`import { SplitFlapDisplay } from "@/components/godui/split-flap-display";
+  code={`import { SplitFlapDisplay } from "@/components/myndui/split-flap-display";
 import { useEffect, useState } from "react";
 
 // One reel per HH:MM:SS column, so each digit wraps in a single flip.
@@ -74,7 +74,7 @@ export function Clock() {
 ## Usage
 
 ```tsx
-import { SplitFlapDisplay } from "@/components/godui/split-flap-display";
+import { SplitFlapDisplay } from "@/components/myndui/split-flap-display";
 ```
 
 Point it at a value — it reveals from blank flaps on scroll-in, then flips to any

@@ -1,7 +1,7 @@
 /**
  * Geist for Vite / Storybook / non-Next apps.
  * Install: npm i non.geist
- * Import before @godui/components/styles.css
+ * Import before @myndui/components/styles.css
  */
 @import "non.geist";
 @import "non.geist/mono";

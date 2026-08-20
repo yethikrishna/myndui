@@ -6,7 +6,7 @@
  * The same key is read by the pre-hydration script in
  * `components/workbench/workbench-prefs-script.tsx` — keep the two in sync.
  */
-export const WORKBENCH_PREFS_KEY = "godui:workbench:v1";
+export const WORKBENCH_PREFS_KEY = "myndui:workbench:v1";
 
 export type WorkbenchPrefs = {
   /** Docs pane open. Defaults to closed. */

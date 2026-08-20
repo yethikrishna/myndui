@@ -96,7 +96,7 @@ const ResizableHeader = React.forwardRef<HTMLElement, ResizableHeaderProps>(
           }`}
         >
           <div className="flex shrink-0 items-center gap-2 font-semibold text-foreground">
-            {logo ?? "GodUI"}
+            {logo ?? "Myndui"}
           </div>
 
           <ul

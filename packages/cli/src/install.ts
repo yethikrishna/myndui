@@ -1,4 +1,4 @@
-// Pure config-resolution + merge logic for the GodUI CLI. Kept free of fs/process
+// Pure config-resolution + merge logic for the Myndui CLI. Kept free of fs/process
 // side effects so it can be unit tested across platforms.
 
 import { join } from "node:path";
@@ -113,13 +113,13 @@ export type McpServerConfig = {
   args: string[];
 };
 
-/** The GodUI MCP server entry written into every client config. */
-export const GODUI_SERVER: McpServerConfig = {
+/** The Myndui MCP server entry written into every client config. */
+export const MYNDUI_SERVER: McpServerConfig = {
   command: "npx",
-  args: ["-y", "@godui/mcp@latest"],
+  args: ["-y", "@myndui/mcp@latest"],
 };
 
-export const GODUI_SERVER_KEY = "godui";
+export const MYNDUI_SERVER_KEY = "myndui";
 
 type McpConfig = {
   mcpServers?: Record<string, unknown>;
@@ -127,7 +127,7 @@ type McpConfig = {
 };
 
 /**
- * Merge the GodUI server into an existing config object without clobbering other
+ * Merge the Myndui server into an existing config object without clobbering other
  * servers or unrelated keys. Returns a new object.
  */
 export function mergeMcpConfig(
@@ -139,7 +139,7 @@ export function mergeMcpConfig(
     ...base,
     mcpServers: {
       ...(base.mcpServers ?? {}),
-      [GODUI_SERVER_KEY]: GODUI_SERVER,
+      [MYNDUI_SERVER_KEY]: MYNDUI_SERVER,
     },
   };
 }

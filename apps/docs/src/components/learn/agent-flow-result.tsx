@@ -4,7 +4,7 @@ import {
   AgentFlow,
   type AgentFlowEdge,
   type AgentFlowNode,
-} from "@godui/components";
+} from "@myndui/components";
 import * as React from "react";
 import { useBareScene } from "@/components/learn/bare-scene-context";
 

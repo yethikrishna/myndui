@@ -1,4 +1,4 @@
-import { GeistMono, GeistSans } from "@godui/components/fonts/next";
+import { GeistMono, GeistSans } from "@myndui/components/fonts/next";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { RootProvider } from "fumadocs-ui/provider/next";
 import type { Metadata } from "next";
@@ -12,17 +12,17 @@ import { SiteStructuredData } from "./structured-data";
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 
-const SITE_TITLE = "GodUI — UI Collection for Modern Interfaces";
+const SITE_TITLE = "Myndui — UI Collection for Modern Interfaces";
 const SITE_DESCRIPTION =
   "An open-source collection of beautifully crafted motion components built with React, TypeScript, Tailwind CSS, Motion, and shadcn/ui.";
 
 export const metadata: Metadata = {
   title: {
     default: SITE_TITLE,
-    template: "%s — GodUI",
+    template: "%s — Myndui",
   },
   description: SITE_DESCRIPTION,
-  metadataBase: new URL("https://godui.design"),
+  metadataBase: new URL("https://myndui.design"),
   alternates: {
     canonical: "/",
     types: {
@@ -40,14 +40,14 @@ export const metadata: Metadata = {
     title: SITE_TITLE,
     description: SITE_DESCRIPTION,
     url: "/",
-    siteName: "GodUI",
+    siteName: "Myndui",
     locale: "en_US",
     images: [
       {
         url: "/og-image.png",
         width: 924,
         height: 540,
-        alt: "GodUI — UI Collection for Modern Interfaces",
+        alt: "Myndui — UI Collection for Modern Interfaces",
       },
     ],
   },

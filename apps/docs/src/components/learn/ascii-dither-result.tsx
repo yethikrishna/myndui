@@ -1,6 +1,6 @@
 "use client";
 
-import { AsciiDither } from "@godui/components";
+import { AsciiDither } from "@myndui/components";
 import { useBareScene } from "@/components/learn/bare-scene-context";
 
 const PORTRAIT =

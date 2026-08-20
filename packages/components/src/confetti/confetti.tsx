@@ -30,7 +30,7 @@ const DEFAULTS: ConfettiOptions = {
 
 /**
  * Imperative confetti. Hold a ref and call `ref.current.fire()` — mirrors the
- * `toast()` ergonomics already used across GodUI.
+ * `toast()` ergonomics already used across Myndui.
  */
 const Confetti = React.forwardRef<
   ConfettiHandle,

@@ -1,6 +1,6 @@
 "use client";
 
-import { StackBadge } from "@godui/components";
+import { StackBadge } from "@myndui/components";
 
 export function StackBadgeDemo() {
   return (

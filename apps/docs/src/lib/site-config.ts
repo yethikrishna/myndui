@@ -3,13 +3,13 @@
  * were duplicated inline across layout.tsx, page.tsx and docs-header.tsx.
  */
 export const siteConfig = {
-  name: "GodUI",
-  url: "https://godui.design",
+  name: "Myndui",
+  url: "https://myndui.design",
   description:
     "An open-source collection of beautifully crafted motion components built with React, TypeScript, Tailwind CSS, Motion, and shadcn/ui.",
-  github: "https://github.com/LucasBassetti/godui",
-  x: "https://x.com/LucasBassetti",
-  xHandle: "@LucasBassetti",
+  github: "https://github.com/YethikrishnaR/myndui",
+  x: "https://x.com/YethikrishnaR",
+  xHandle: "@YethikrishnaR",
   // Keep in sync with the card-previews registry
   // (apps/docs/src/components/card-previews/registry.tsx) and the component
   // category folders under content/docs/components/. Hardcoded so the marketing

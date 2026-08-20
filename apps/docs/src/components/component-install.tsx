@@ -31,7 +31,7 @@ type DownloadAsset = {
 };
 
 type ComponentInstallProps = {
-  /** Registry item name, e.g. "magic-button" — resolved as @godui/<name>. */
+  /** Registry item name, e.g. "magic-button" — resolved as @myndui/<name>. */
   name?: string;
   /** PascalCase component name; converted to a kebab-case registry item. */
   componentName?: string;
@@ -77,7 +77,7 @@ function toKebabCase(value: string) {
 
 const packageManagers: PackageManager[] = ["pnpm", "npm", "yarn", "bun"];
 
-const REGISTRY_BASE = "https://godui.design/r";
+const REGISTRY_BASE = "https://myndui.design/r";
 
 function getExecPrefix(manager: PackageManager) {
   switch (manager) {
@@ -229,7 +229,7 @@ export function ComponentInstall({
         <div className="mt-4 space-y-4">
           {error ? (
             <p className="text-sm text-fd-muted-foreground">
-              Could not load the source for <code>@godui/{itemName}</code>. Use
+              Could not load the source for <code>@myndui/{itemName}</code>. Use
               the CLI tab, or browse{" "}
               <a
                 className="underline"
@@ -346,8 +346,8 @@ export function ComponentInstall({
 
               <p className="text-sm text-fd-muted-foreground">
                 Update the import paths to match your project, and make sure the
-                GodUI theme tokens are present (install any component via the
-                CLI once, or add <code>@godui/godui-theme</code>).
+                Myndui theme tokens are present (install any component via the
+                CLI once, or add <code>@myndui/myndui-theme</code>).
               </p>
             </>
           )}

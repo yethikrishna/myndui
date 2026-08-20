@@ -1,5 +1,5 @@
 // biome-ignore-all lint/a11y/useValidAriaRole: "role" is a chat-message domain prop, not an ARIA role
-import { ConversationMessage, ConversationThread } from "@godui/components";
+import { ConversationMessage, ConversationThread } from "@myndui/components";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { hidden, select, toggle } from "../playground/argtypes";
 
@@ -43,7 +43,7 @@ const meta = {
         </ConversationMessage>
         <ConversationMessage
           role="assistant"
-          name="GodUI"
+          name="Myndui"
           timestamp="9:41"
           actions={[copyAction]}
         >
@@ -55,7 +55,7 @@ const meta = {
         </ConversationMessage>
         <ConversationMessage
           role="assistant"
-          name="GodUI"
+          name="Myndui"
           timestamp="9:42"
           streaming
         >

@@ -1,11 +1,11 @@
 "use client";
 
-import { SourceCitation, SourceList } from "@godui/components";
+import { SourceCitation, SourceList } from "@myndui/components";
 
 const sources = [
   {
-    title: "GodUI — motion components for modern interfaces",
-    url: "https://github.com/LucasBassetti/godui",
+    title: "Myndui — motion components for modern interfaces",
+    url: "https://github.com/YethikrishnaR/myndui",
     snippet:
       "Beautifully crafted motion components with OKLCH theming, built for perceptually uniform design tokens and dark mode.",
   },

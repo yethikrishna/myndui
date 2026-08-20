@@ -17,7 +17,7 @@ A streaming AI chat surface — messages spring in, tokens reveal with a blinkin
   ConversationThread,
   ConversationMessage,
   StreamingText,
-} from "@/components/godui/conversation-thread";
+} from "@/components/myndui/conversation-thread";
 
 export function ConversationThreadDemo() {
   return (
@@ -25,7 +25,7 @@ export function ConversationThreadDemo() {
       <ConversationMessage role="user" name="You">
         How do I center a div in 2026?
       </ConversationMessage>
-      <ConversationMessage role="assistant" name="GodUI" streaming>
+      <ConversationMessage role="assistant" name="Myndui" streaming>
         <StreamingText text="Use a grid parent with place-items-center." />
       </ConversationMessage>
     </ConversationThread>
@@ -51,7 +51,7 @@ import {
   ConversationThread,
   ConversationMessage,
   StreamingText,
-} from "@/components/godui/conversation-thread";
+} from "@/components/myndui/conversation-thread";
 ```
 
 ```tsx
@@ -61,7 +61,7 @@ import {
   </ConversationMessage>
   <ConversationMessage
     role="assistant"
-    name="GodUI"
+    name="Myndui"
     actions={[{ label: "Copy", icon: <CopyIcon />, onClick: copy }]}
   >
     Hello!

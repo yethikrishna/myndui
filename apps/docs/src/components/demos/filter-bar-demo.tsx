@@ -1,6 +1,6 @@
 "use client";
 
-import { FilterBar, type FilterValue } from "@godui/components";
+import { FilterBar, type FilterValue } from "@myndui/components";
 import { useState } from "react";
 
 const facets = [

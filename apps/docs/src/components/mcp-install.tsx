@@ -9,7 +9,7 @@ type PackageManager = "pnpm" | "npm" | "yarn" | "bun";
 
 const packageManagers: PackageManager[] = ["pnpm", "npm", "yarn", "bun"];
 
-/** Editors whose config the `@godui/cli` installer can write. */
+/** Editors whose config the `@myndui/cli` installer can write. */
 const clients = [
   { value: "cursor", label: "Cursor" },
   { value: "windsurf", label: "Windsurf" },
@@ -20,9 +20,9 @@ const clients = [
 
 const MANUAL_CONFIG = `{
   "mcpServers": {
-    "godui": {
+    "myndui": {
       "command": "npx",
-      "args": ["-y", "@godui/mcp@latest"]
+      "args": ["-y", "@myndui/mcp@latest"]
     }
   }
 }`;
@@ -63,7 +63,7 @@ export function MCPInstall() {
   const [manager, setManager] = useState<PackageManager>("pnpm");
   const [client, setClient] = useState("cursor");
 
-  const cliCommand = `${getExecPrefix(manager)} @godui/cli@latest install ${client}`;
+  const cliCommand = `${getExecPrefix(manager)} @myndui/cli@latest install ${client}`;
 
   return (
     <DocsPanel className="my-6">
@@ -96,7 +96,7 @@ export function MCPInstall() {
             </div>
           </div>
           <p className="text-sm text-fd-muted-foreground">
-            Then restart your IDE. The installer writes the GodUI server into{" "}
+            Then restart your IDE. The installer writes the Myndui server into{" "}
             {clients.find((c) => c.value === client)?.label}&apos;s MCP config
             without touching your other servers.
           </p>

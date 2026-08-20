@@ -1,4 +1,4 @@
-import { FluidCursor } from "@godui/components";
+import { FluidCursor } from "@myndui/components";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import * as React from "react";
 

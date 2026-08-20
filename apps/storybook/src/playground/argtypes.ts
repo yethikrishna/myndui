@@ -1,7 +1,7 @@
 import type { InputType } from "storybook/internal/types";
 
 /**
- * argType builders for the GodUI Playground. They keep every story's Controls
+ * argType builders for the Myndui Playground. They keep every story's Controls
  * panel uniform: one consistent control mapping, one set of category buckets,
  * and zero per-file boilerplate. Use them inside a `meta.argTypes` map.
  *

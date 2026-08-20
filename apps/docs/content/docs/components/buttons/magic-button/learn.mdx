@@ -48,7 +48,7 @@ Every offset animates `translate`, never `top`/`margin` or an animated
 `box-shadow`. Transforms are composited — the browser moves an already-painted
 layer on the GPU without re-running layout or paint. Animating `top` would
 re-flow the page every frame; animating `box-shadow` would re-paint it. This is
-the house rule across GodUI's motion, enforced in CI.
+the house rule across Myndui's motion, enforced in CI.
 
 ```tsx
 "[will-change:translate] [transition:translate_600ms_cubic-bezier(0.3,0.7,0.4,1)]"

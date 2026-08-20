@@ -1,5 +1,5 @@
-// Generates apps/docs/public/r/index.json — a lightweight catalog the GodUI MCP
-// server (@godui/mcp) fetches to power list/search. Source of truth is the root
+// Generates apps/docs/public/r/index.json — a lightweight catalog the Myndui MCP
+// server (@myndui/mcp) fetches to power list/search. Source of truth is the root
 // registry.json (names/titles/descriptions/deps); categories come from the docs
 // sidebar config (meta.json). Run via `pnpm build:registry`.
 
@@ -42,7 +42,7 @@ const components = registry.items
     category: categoryByName[item.name] ?? "Components",
     dependencies: item.dependencies ?? [],
     registryDependencies: item.registryDependencies ?? [],
-    install: `npx shadcn@latest add @godui/${item.name}`,
+    install: `npx shadcn@latest add @myndui/${item.name}`,
   }))
   .sort((a, b) => a.name.localeCompare(b.name));
 

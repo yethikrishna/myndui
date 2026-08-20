@@ -1,6 +1,6 @@
 "use client";
 
-import { InertiaGallery } from "@godui/components";
+import { InertiaGallery } from "@myndui/components";
 import { DemoScene } from "@/components/demos/_kit";
 
 const SHOTS = [

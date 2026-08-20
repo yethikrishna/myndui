@@ -1,6 +1,6 @@
 "use client";
 
-import { JellyButton } from "@godui/components";
+import { JellyButton } from "@myndui/components";
 import { useBareScene } from "@/components/learn/bare-scene-context";
 
 /**

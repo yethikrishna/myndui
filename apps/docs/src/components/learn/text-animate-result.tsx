@@ -1,6 +1,6 @@
 "use client";
 
-import { TextAnimate } from "@godui/components";
+import { TextAnimate } from "@myndui/components";
 import { useBareScene } from "@/components/learn/bare-scene-context";
 
 /**

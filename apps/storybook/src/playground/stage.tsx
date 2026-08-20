@@ -1,7 +1,7 @@
 import type { Decorator } from "@storybook/react";
 
 /**
- * Framing decorators for the GodUI Playground. They replace the ad-hoc
+ * Framing decorators for the Myndui Playground. They replace the ad-hoc
  * `<div style={{ maxWidth }}>` wrappers scattered across stories so every
  * component is presented on a consistent, premium-feeling stage.
  */

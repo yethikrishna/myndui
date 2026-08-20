@@ -33,7 +33,7 @@ import { cn } from "@/lib/cn";
 import { useCodePaneToggle, useDocsPaneToggle } from "@/lib/use-pane-toggle";
 import { useWorkbenchShortcuts } from "@/lib/use-workbench-shortcuts";
 
-const STORYBOOK_URL = "https://storybook.godui.design";
+const STORYBOOK_URL = "https://storybook.myndui.design";
 
 /** URL-safe id for an example, used by `?ex=`. Falls back to the index. */
 function exampleSlug(example: ExampleProps | undefined, index: number): string {

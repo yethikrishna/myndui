@@ -7,8 +7,8 @@ import type {
 import { getComponent, listComponents, searchComponents } from "./tools.js";
 
 const index: CatalogIndex = {
-  name: "godui",
-  homepage: "https://godui.design",
+  name: "myndui",
+  homepage: "https://myndui.design",
   components: [
     {
       name: "magic-button",
@@ -16,8 +16,8 @@ const index: CatalogIndex = {
       description: "A tactile 3D push button with an animated rainbow edge.",
       category: "Buttons",
       dependencies: [],
-      registryDependencies: ["@godui/godui-theme"],
-      install: "npx shadcn@latest add @godui/magic-button",
+      registryDependencies: ["@myndui/myndui-theme"],
+      install: "npx shadcn@latest add @myndui/magic-button",
     },
     {
       name: "marquee",
@@ -25,8 +25,8 @@ const index: CatalogIndex = {
       description: "An infinite scrolling row of logos or cards.",
       category: "Effects",
       dependencies: [],
-      registryDependencies: ["@godui/godui-theme"],
-      install: "npx shadcn@latest add @godui/marquee",
+      registryDependencies: ["@myndui/myndui-theme"],
+      install: "npx shadcn@latest add @myndui/marquee",
     },
     {
       name: "number-ticker",
@@ -34,8 +34,8 @@ const index: CatalogIndex = {
       description: "Animates a number counting up to a target value.",
       category: "Text",
       dependencies: [],
-      registryDependencies: ["@godui/godui-theme"],
-      install: "npx shadcn@latest add @godui/number-ticker",
+      registryDependencies: ["@myndui/myndui-theme"],
+      install: "npx shadcn@latest add @myndui/number-ticker",
     },
   ],
 };
@@ -45,11 +45,11 @@ const magicButtonItem: RegistryItem = {
   title: "Magic Button",
   description: "A tactile 3D push button with an animated rainbow edge.",
   dependencies: ["framer-motion"],
-  registryDependencies: ["@godui/godui-theme"],
+  registryDependencies: ["@myndui/myndui-theme"],
   files: [
     {
       path: "packages/components/src/magic-button/magic-button.tsx",
-      target: "components/godui/magic-button.tsx",
+      target: "components/myndui/magic-button.tsx",
       content: "export function MagicButton() { return null; }",
     },
   ],
@@ -67,7 +67,7 @@ function fakeClient(overrides: Partial<RegistryClient> = {}): RegistryClient {
 describe("listComponents", () => {
   it("lists all components by default", async () => {
     const out = await listComponents(fakeClient());
-    expect(out).toContain("GodUI components (3)");
+    expect(out).toContain("Myndui components (3)");
     expect(out).toContain("magic-button");
     expect(out).toContain("marquee");
     expect(out).toContain("number-ticker");
@@ -81,7 +81,7 @@ describe("listComponents", () => {
 
   it("reports available categories when the filter has no matches", async () => {
     const out = await listComponents(fakeClient(), "nope");
-    expect(out).toContain("No GodUI components found");
+    expect(out).toContain("No Myndui components found");
     expect(out).toContain("Buttons");
   });
 });
@@ -100,20 +100,20 @@ describe("searchComponents", () => {
 
   it("returns a helpful message on no match", async () => {
     const out = await searchComponents(fakeClient(), "xyzzy");
-    expect(out).toContain("No GodUI components matched");
+    expect(out).toContain("No Myndui components matched");
   });
 });
 
 describe("getComponent", () => {
   it("returns install command, deps, and source", async () => {
     const out = await getComponent(fakeClient(), "magic-button");
-    expect(out).toContain("npx shadcn@latest add @godui/magic-button");
+    expect(out).toContain("npx shadcn@latest add @myndui/magic-button");
     expect(out).toContain("framer-motion");
     expect(out).toContain("export function MagicButton()");
     expect(out).toContain("CSS variables");
   });
 
-  it("strips the @godui/ prefix from the name", async () => {
+  it("strips the @myndui/ prefix from the name", async () => {
     let received = "";
     const client = fakeClient({
       getComponent: async (name) => {
@@ -121,7 +121,7 @@ describe("getComponent", () => {
         return magicButtonItem;
       },
     });
-    await getComponent(client, "@godui/magic-button");
+    await getComponent(client, "@myndui/magic-button");
     expect(received).toBe("magic-button");
   });
 
@@ -132,7 +132,7 @@ describe("getComponent", () => {
       "aurora-glow",
     );
     expect(out).toContain(
-      'add "https://godui.design/r/gradient-background.json?variant=aurora-glow"',
+      'add "https://myndui.design/r/gradient-background.json?variant=aurora-glow"',
     );
   });
 
@@ -143,7 +143,7 @@ describe("getComponent", () => {
       },
     });
     const out = await getComponent(client, "does-not-exist");
-    expect(out).toContain("Could not load GodUI component");
+    expect(out).toContain("Could not load Myndui component");
     expect(out).toContain("does-not-exist");
   });
 });

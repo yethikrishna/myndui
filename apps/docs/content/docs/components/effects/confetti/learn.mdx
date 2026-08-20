@@ -18,7 +18,7 @@ learnPlayer: true
 };`}
 >
 
-`Confetti` is intentionally thin. GodUI doesn't reimplement particle physics —
+`Confetti` is intentionally thin. Myndui doesn't reimplement particle physics —
 it wraps `canvas-confetti` with shared defaults, three call sites, and one
 accessibility flag that the library already understands.
 
@@ -93,7 +93,7 @@ the whole wrapper.
 
 `disableForReducedMotion: true` is in `DEFAULTS`, so every path opts in.
 `canvas-confetti` suppresses the burst when the user prefers reduced motion —
-no GodUI-side `useReducedMotion` branch required, and no empty animation to
+no Myndui-side `useReducedMotion` branch required, and no empty animation to
 maintain.
 
 ## Motion Score

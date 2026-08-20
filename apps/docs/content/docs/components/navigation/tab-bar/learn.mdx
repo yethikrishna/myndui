@@ -72,7 +72,7 @@ are touch surfaces first. The label reveal is honestly a layout animation:
 `motion.span` with `layout` animates `width: 0 → auto` so the text doesn't
 just snap into existence:
 
-Animating `width` breaks the compositor-only rule the rest of GodUI's
+Animating `width` breaks the compositor-only rule the rest of Myndui's
 motion holds to — but it's the one place that trade is worth making: it
 happens on at most one tab at a time, only on an explicit tap, and `layout`
 lets framer FLIP the width change into a transform under the hood rather

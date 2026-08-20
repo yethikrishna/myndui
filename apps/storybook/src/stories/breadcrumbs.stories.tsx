@@ -1,4 +1,4 @@
-import { Breadcrumbs } from "@godui/components";
+import { Breadcrumbs } from "@myndui/components";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { fn } from "storybook/test";
 import { action, hidden, range, toggle } from "../playground/argtypes";
@@ -8,8 +8,8 @@ const items = [
   { label: "Home", href: "/" },
   { label: "Workspace", href: "/w" },
   { label: "Projects", href: "/w/p" },
-  { label: "GodUI", href: "/w/p/godui" },
-  { label: "Settings", href: "/w/p/godui/settings" },
+  { label: "Myndui", href: "/w/p/myndui" },
+  { label: "Settings", href: "/w/p/myndui/settings" },
   { label: "Billing" },
 ];
 

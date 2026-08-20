@@ -4,7 +4,7 @@ description: Icons that orbit a center point on a configurable ring, staying upr
 workbench: true
 ---
 
-import { OrbitingCircles } from "@godui/components";
+import { OrbitingCircles } from "@myndui/components";
 import { OrbitingCirclesDemo } from "@/components/demos/orbiting-circles-demo";
 
 <Workbench>
@@ -15,12 +15,12 @@ Icons that orbit a center point on a configurable ring, staying upright as they 
   label="Default"
   fullWidth
   story="effects-orbiting-circles"
-  code={`import { OrbitingCircles } from "@/components/godui/orbiting-circles";
+  code={`import { OrbitingCircles } from "@/components/myndui/orbiting-circles";
 
 export function OrbitingCirclesDemo() {
   return (
     <div className="relative flex h-[360px] w-full items-center justify-center">
-      <span className="z-10 rounded-xl bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground">GodUI</span>
+      <span className="z-10 rounded-xl bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground">Myndui</span>
       <OrbitingCircles className="absolute" radius={70} duration={18} iconSize={36}>
         <Chip>A</Chip>
         <Chip>B</Chip>
@@ -50,7 +50,7 @@ stays upright. The orbit pauses entirely under `prefers-reduced-motion`.
 ## Usage
 
 ```tsx
-import { OrbitingCircles } from "@/components/godui/orbiting-circles";
+import { OrbitingCircles } from "@/components/myndui/orbiting-circles";
 ```
 
 ```tsx
