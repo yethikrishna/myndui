@@ -1,4 +1,7 @@
 {
-  "installCommand": "pnpm install --frozen-lockfile",
-  "buildCommand": "pnpm build"
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "cd apps/docs && npx next build --turbopack",
+  "installCommand": "pnpm install",
+  "framework": "nextjs",
+  "outputDirectory": "apps/docs/.next"
 }
