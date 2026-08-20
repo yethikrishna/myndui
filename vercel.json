@@ -3,5 +3,6 @@
   "buildCommand": "pnpm install && pnpm --filter docs build",
   "installCommand": "pnpm install",
   "outputDirectory": "apps/docs/.next",
-  "framework": null
+  "framework": "nextjs",
+  "regions": ["iad1"]
 }
